@@ -1,0 +1,282 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - EnemySpaceShipSkills
+    - EnemySpaceshipCollisions
+    - EnemySpaceshipMovement
+    - EnemySpawner
+    - FollowGameObjectTransform
+    - GameOverSceneSwitcher
+    - HideMouseScript
+    - MainGameSceneSwitcher
+    - MainSpaceShipP1Collisions
+    - MainSpaceShipP2Collision
+    - MainSpaceShipP2Script
+    - MainSpaceShipSkills
+    - MainSpaceshipP1Movement
+    - MainSpaceshipP2Movement
+    - ShieldCollisionScript
+    - ShowCursorScript
+    - chargingSkillScript
+    - fixPosition
+    - rotationAlwaysIsZero
+    - setActive
+  serializedClasses: {}
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/GameOverScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17766}
+    - Class: 114
+      Script: {instanceID: 17794}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    Assets/Scenes/MainGameScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17760}
+    - Class: 114
+      Script: {instanceID: 17762}
+    - Class: 114
+      Script: {instanceID: 17764}
+    - Class: 114
+      Script: {instanceID: 17768}
+    - Class: 114
+      Script: {instanceID: 17774}
+    - Class: 114
+      Script: {instanceID: 17776}
+    - Class: 114
+      Script: {instanceID: 17778}
+    - Class: 114
+      Script: {instanceID: 17780}
+    - Class: 114
+      Script: {instanceID: 17782}
+    - Class: 114
+      Script: {instanceID: 17784}
+    - Class: 114
+      Script: {instanceID: 17788}
+    - Class: 114
+      Script: {instanceID: 17796}
+    - Class: 114
+      Script: {instanceID: 17798}
+    - Class: 114
+      Script: {instanceID: 17800}
+    - Class: 114
+      Script: {instanceID: 17802}
+    - Class: 114
+      Script: {instanceID: 17804}
+    - Class: 114
+      Script: {instanceID: 17806}
+    - Class: 114
+      Script: {instanceID: 17808}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 77b5cfbed145966d32939aba57c536f4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpaceShipSkills
+  - hash:
+      serializedVersion: 2
+      Hash: 38d0211630a53adc1d67d3cb6d69db32
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceShipP1Collisions
+  - hash:
+      serializedVersion: 2
+      Hash: 9782309cfd1c4fd3db9260e9b0177a65
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceshipP1Movement
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc0f353e55b087fafcf90620ec6ec49
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameOverSceneSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 1a294b8f222fc1368df37e1594c95954
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: fixPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 9f9070463b4412ec8e7a000490f2cc45
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: detachParent
+  - hash:
+      serializedVersion: 2
+      Hash: 33c25e853ea3d57b43d36119ae73232e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: activate
+  - hash:
+      serializedVersion: 2
+      Hash: 84ebe03e4481b4ce53eb3d47fb6290f5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceShipSkills
+  - hash:
+      serializedVersion: 2
+      Hash: bfd16a050252160c4679edc855d42f61
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: rotationAlwaysIsZero
+  - hash:
+      serializedVersion: 2
+      Hash: f4158a2191174ec6a495d8cacdc9156c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainGameSceneSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 66873157dba13a01bd646a8752034eed
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowGameObjectTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 39a651591ea0bbf373772438be93ea54
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpawner
+  - hash:
+      serializedVersion: 2
+      Hash: c2184072a07c086cfeee2abd02f880d7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpaceshipMovement
+  - hash:
+      serializedVersion: 2
+      Hash: a8671dff53b1e1a51ec9a46f28812e9b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainShipRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 02785fed5688d64de8c9db0e49963804
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceshipP2Movement
+  - hash:
+      serializedVersion: 2
+      Hash: ce3c9b6256e1d01f0639ab627338ac94
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpaceshipLifeScript
+  - hash:
+      serializedVersion: 2
+      Hash: d9bed30d6e1a65fc4d78629a501115d7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: mainSpaceshipAndBoundariesCollisions
+  - hash:
+      serializedVersion: 2
+      Hash: 2c5312d74c022d596639ed8749eee470
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShowCursorScript
+  - hash:
+      serializedVersion: 2
+      Hash: f293bcce640dff6d8b6dae8d2501ba2e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceShipP2Script
+  - hash:
+      serializedVersion: 2
+      Hash: 86e6b2e8c613e56f212a3ffa4b337d72
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceShipP2Collision
+  - hash:
+      serializedVersion: 2
+      Hash: 0a1fb010614cf0e6b43c20f59fdacfd2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShieldCollisionScript
+  - hash:
+      serializedVersion: 2
+      Hash: a701579498af5469228386ec9049a814
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpaceshipCollisions
+  - hash:
+      serializedVersion: 2
+      Hash: 42da54c5f41dc766fbf464cc6a9731a8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: setActive
+  - hash:
+      serializedVersion: 2
+      Hash: 24fa2e59e151d76d94edd405282082b0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: chargingSkillScript
+  - hash:
+      serializedVersion: 2
+      Hash: 959f26af2ebdb4534394395e45bbe048
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HideMouseScript
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/MainGameScene.unity
+  - Assets/Scenes/GameOverScene.unity
+  playerPath: C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne.exe

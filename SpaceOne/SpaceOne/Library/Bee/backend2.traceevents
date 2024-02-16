@@ -1,0 +1,110 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1708111183175210, "dur":39158, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708111183214378, "dur":3327, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708111183217761, "dur":171, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708111183218151, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1708111183218267, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1708111183218560, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":0, "ts":1708111183218683, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708111183218861, "dur":182, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"UnityLinker C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/SpaceOne/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":0, "ts":1708111183221668, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708111183221863, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708111183223813, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1708111183217954, "dur":6252, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708111183224207, "dur":611638, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708111183835848, "dur":174, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708111183836172, "dur":1371, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1708111183218595, "dur":5619, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708111183224217, "dur":13722, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708111183237949, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/302806777070210575.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1708111183239602, "dur":564, "ph":"X", "name": "WriteResponseFile",  "args": { "detail":"Library/Bee/artifacts/rsp/302806777070210575.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1708111183240591, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708111183247088, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1708111183247169, "dur":242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1708111183248288, "dur":84673, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\rsp\\302806777070210575.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1708111183240169, "dur":92794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/SpaceOne/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1708111183334095, "dur":185, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708111183363722, "dur":455153, "ph":"X", "name": "UnityLinker",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/SpaceOne/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1708111183218979, "dur":5247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183224229, "dur":667, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183224897, "dur":537, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183225434, "dur":1114, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183226549, "dur":565, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183227114, "dur":548, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183227663, "dur":580, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183228243, "dur":550, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183228793, "dur":571, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183229365, "dur":566, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183229931, "dur":565, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183230497, "dur":818, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183231316, "dur":294, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183231610, "dur":6340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183237950, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1708111183238017, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183238189, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1708111183238381, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1708111183238465, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183238585, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1708111183238693, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183243708, "dur":106, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708111183239783, "dur":4087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1708111183243993, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1708111183245860, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1708111183245859, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1708111183245947, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1708111183246968, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1708111183248031, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1708111183248985, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1708111183249932, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1708111183252721, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1708111183253665, "dur":582186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183218966, "dur":5255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183224224, "dur":762, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183224986, "dur":542, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183225528, "dur":818, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183226347, "dur":548, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183226895, "dur":558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183227453, "dur":553, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183228006, "dur":559, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183228565, "dur":537, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183229102, "dur":570, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183229672, "dur":550, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183230222, "dur":598, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183230821, "dur":784, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183231605, "dur":6341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183239560, "dur":1337, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1708111183240906, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1708111183241045, "dur":9794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1708111183251504, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerae03ed08-inputdata.json" }}
+,{ "pid":12345, "tid":3, "ts":1708111183240900, "dur":10819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1708111183252475, "dur":166, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708111183252919, "dur":148528, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1708111183412210, "dur":2241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1708111183412180, "dur":2272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1708111183414489, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1708111183415505, "dur":420341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183219012, "dur":5246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183224258, "dur":661, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183224919, "dur":534, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183225453, "dur":1280, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183226733, "dur":588, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183227321, "dur":559, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183227880, "dur":571, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183228451, "dur":559, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183229010, "dur":545, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183229555, "dur":546, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183230101, "dur":555, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183230656, "dur":783, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183231439, "dur":6509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183237962, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183238798, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1708111183245203, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708111183239759, "dur":5541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1708111183245408, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1708111183246616, "dur":4217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1708111183246614, "dur":4221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1708111183250862, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1708111183252241, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1708111183253379, "dur":582564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708111183840964, "dur":508, "ph":"X", "name": "ProfilerWriteOutput" }
+,

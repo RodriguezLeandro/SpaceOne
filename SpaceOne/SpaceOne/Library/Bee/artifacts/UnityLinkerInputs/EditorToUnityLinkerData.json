@@ -85,13 +85,6 @@
             ]
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "GameOverSceneSwitcher",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "GlobalGameManager",
             "fullManagedTypeName": "",
@@ -165,6 +158,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MessageSwitcherScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "MultiplayerManager",
             "fullManagedTypeName": "",
@@ -208,6 +208,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "ReturnToMainGameScreen",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "rotationAlwaysIsZero",
             "moduleName": "",
             "usedInScenes": []
@@ -217,6 +224,13 @@
             "nativeClass": "RuntimeInitializeOnLoadManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SecondaryEnemySpaceshipCollisionsScript",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -244,6 +258,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "ShowCursorScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SpriteTransformScript",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -515,6 +536,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/GameOverScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },

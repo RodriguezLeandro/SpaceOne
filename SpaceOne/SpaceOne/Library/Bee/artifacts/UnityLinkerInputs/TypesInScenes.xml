@@ -7,7 +7,6 @@
 		<type fullname="EnemySpawner" preserve="nothing"/>
 		<type fullname="fixPosition" preserve="nothing"/>
 		<type fullname="FollowGameObjectTransform" preserve="nothing"/>
-		<type fullname="GameOverSceneSwitcher" preserve="nothing"/>
 		<type fullname="HideMouseScript" preserve="nothing"/>
 		<type fullname="MainGameSceneSwitcher" preserve="nothing"/>
 		<type fullname="MainSpaceShipP1Collisions" preserve="nothing"/>
@@ -16,10 +15,14 @@
 		<type fullname="MainSpaceshipP2Movement" preserve="nothing"/>
 		<type fullname="MainSpaceShipP2Script" preserve="nothing"/>
 		<type fullname="MainSpaceShipSkills" preserve="nothing"/>
+		<type fullname="MessageSwitcherScript" preserve="nothing"/>
+		<type fullname="ReturnToMainGameScreen" preserve="nothing"/>
 		<type fullname="rotationAlwaysIsZero" preserve="nothing"/>
+		<type fullname="SecondaryEnemySpaceshipCollisionsScript" preserve="nothing"/>
 		<type fullname="setActive" preserve="nothing"/>
 		<type fullname="ShieldCollisionScript" preserve="nothing"/>
 		<type fullname="ShowCursorScript" preserve="nothing"/>
+		<type fullname="SpriteTransformScript" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine">
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>

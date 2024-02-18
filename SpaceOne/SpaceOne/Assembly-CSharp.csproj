@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Ships\MainSpaceshipP2\MainSpaceShipP2Script.cs" />
+    <Compile Include="Assets\ReturnToMainGameScreen.cs" />
     <Compile Include="Assets\fixPosition.cs" />
     <Compile Include="Assets\Skills\MainSpaceShipSkills.cs" />
     <Compile Include="Assets\EnemySpawner.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\SpriteTransformScript.cs" />
     <Compile Include="Assets\ShieldCollisionScript.cs" />
     <Compile Include="Assets\HideMouseScript.cs" />
+    <Compile Include="Assets\MessageSwitcherScript.cs" />
     <Compile Include="Assets\Ships\MainSpaceshipP2\MainSpaceShipP2Movement.cs" />
     <Compile Include="Assets\EnemySpaceShipSkills.cs" />
     <Compile Include="Assets\MainSpaceShipP2Collision.cs" />
@@ -77,7 +79,6 @@
     <Compile Include="Assets\EnemySpaceshipCollisions.cs" />
     <Compile Include="Assets\activate.cs" />
     <Compile Include="Assets\mainSpaceshipAndBoundariesCollisions.cs" />
-    <Compile Include="Assets\GameOverSceneSwitcher.cs" />
     <Compile Include="Assets\Ships\MainSpaceshipP1\MainSpaceShipP1Movement.cs" />
     <Compile Include="Assets\rotationAlwaysIsZero.cs" />
     <Compile Include="Assets\SecondaryEnemySpaceshipCollisionsScript.cs" />

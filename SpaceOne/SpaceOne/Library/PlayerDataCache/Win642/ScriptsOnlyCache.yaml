@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     - EnemySpaceshipMovement
     - EnemySpawner
     - FollowGameObjectTransform
-    - GameOverSceneSwitcher
     - HideMouseScript
     - MainGameSceneSwitcher
     - MainSpaceShipP1Collisions
@@ -15,12 +14,21 @@ ScriptsOnlyBuild:
     - MainSpaceShipSkills
     - MainSpaceshipP1Movement
     - MainSpaceshipP2Movement
+    - MessageSwitcherScript
+    - ReturnToMainGameScreen
+    - SecondaryEnemySpaceshipCollisionsScript
     - ShieldCollisionScript
     - ShowCursorScript
+    - SpriteTransformScript
     - chargingSkillScript
     - fixPosition
     - rotationAlwaysIsZero
     - setActive
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
@@ -46,9 +54,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17766}
+      Script: {instanceID: 18626}
     - Class: 114
-      Script: {instanceID: 17794}
+      Script: {instanceID: 19056}
+    - Class: 114
+      Script: {instanceID: 32102}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -56,6 +66,8 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     Assets/Scenes/MainGameScene.unity:
     - Class: 1
@@ -79,41 +91,45 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17760}
+      Script: {instanceID: 18576}
     - Class: 114
-      Script: {instanceID: 17762}
+      Script: {instanceID: 18580}
     - Class: 114
-      Script: {instanceID: 17764}
+      Script: {instanceID: 18588}
     - Class: 114
-      Script: {instanceID: 17768}
+      Script: {instanceID: 18598}
     - Class: 114
-      Script: {instanceID: 17774}
+      Script: {instanceID: 18640}
     - Class: 114
-      Script: {instanceID: 17776}
+      Script: {instanceID: 18654}
     - Class: 114
-      Script: {instanceID: 17778}
+      Script: {instanceID: 18726}
     - Class: 114
-      Script: {instanceID: 17780}
+      Script: {instanceID: 18734}
     - Class: 114
-      Script: {instanceID: 17782}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 17784}
+      Script: {instanceID: 18822}
     - Class: 114
-      Script: {instanceID: 17788}
+      Script: {instanceID: 18840}
     - Class: 114
-      Script: {instanceID: 17796}
+      Script: {instanceID: 18860}
     - Class: 114
-      Script: {instanceID: 17798}
+      Script: {instanceID: 19012}
     - Class: 114
-      Script: {instanceID: 17800}
+      Script: {instanceID: 19044}
     - Class: 114
-      Script: {instanceID: 17802}
+      Script: {instanceID: 19146}
     - Class: 114
-      Script: {instanceID: 17804}
+      Script: {instanceID: 19148}
     - Class: 114
-      Script: {instanceID: 17806}
+      Script: {instanceID: 19154}
     - Class: 114
-      Script: {instanceID: 17808}
+      Script: {instanceID: 19198}
+    - Class: 114
+      Script: {instanceID: 19254}
+    - Class: 114
+      Script: {instanceID: 19262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -125,138 +141,6 @@ ScriptsOnlyBuild:
     - Class: 213
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 77b5cfbed145966d32939aba57c536f4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnemySpaceShipSkills
-  - hash:
-      serializedVersion: 2
-      Hash: 38d0211630a53adc1d67d3cb6d69db32
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainSpaceShipP1Collisions
-  - hash:
-      serializedVersion: 2
-      Hash: 9782309cfd1c4fd3db9260e9b0177a65
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainSpaceshipP1Movement
-  - hash:
-      serializedVersion: 2
-      Hash: 4bc0f353e55b087fafcf90620ec6ec49
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameOverSceneSwitcher
-  - hash:
-      serializedVersion: 2
-      Hash: 1a294b8f222fc1368df37e1594c95954
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: fixPosition
-  - hash:
-      serializedVersion: 2
-      Hash: 9f9070463b4412ec8e7a000490f2cc45
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: detachParent
-  - hash:
-      serializedVersion: 2
-      Hash: 33c25e853ea3d57b43d36119ae73232e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: activate
-  - hash:
-      serializedVersion: 2
-      Hash: 84ebe03e4481b4ce53eb3d47fb6290f5
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainSpaceShipSkills
-  - hash:
-      serializedVersion: 2
-      Hash: bfd16a050252160c4679edc855d42f61
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: rotationAlwaysIsZero
-  - hash:
-      serializedVersion: 2
-      Hash: f4158a2191174ec6a495d8cacdc9156c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainGameSceneSwitcher
-  - hash:
-      serializedVersion: 2
-      Hash: 66873157dba13a01bd646a8752034eed
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FollowGameObjectTransform
-  - hash:
-      serializedVersion: 2
-      Hash: 39a651591ea0bbf373772438be93ea54
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnemySpawner
-  - hash:
-      serializedVersion: 2
-      Hash: c2184072a07c086cfeee2abd02f880d7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnemySpaceshipMovement
-  - hash:
-      serializedVersion: 2
-      Hash: a8671dff53b1e1a51ec9a46f28812e9b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainShipRotation
-  - hash:
-      serializedVersion: 2
-      Hash: 02785fed5688d64de8c9db0e49963804
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainSpaceshipP2Movement
-  - hash:
-      serializedVersion: 2
-      Hash: ce3c9b6256e1d01f0639ab627338ac94
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnemySpaceshipLifeScript
-  - hash:
-      serializedVersion: 2
-      Hash: d9bed30d6e1a65fc4d78629a501115d7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: mainSpaceshipAndBoundariesCollisions
-  - hash:
-      serializedVersion: 2
-      Hash: 2c5312d74c022d596639ed8749eee470
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ShowCursorScript
-  - hash:
-      serializedVersion: 2
-      Hash: f293bcce640dff6d8b6dae8d2501ba2e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainSpaceShipP2Script
-  - hash:
-      serializedVersion: 2
-      Hash: 86e6b2e8c613e56f212a3ffa4b337d72
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainSpaceShipP2Collision
-  - hash:
-      serializedVersion: 2
-      Hash: 0a1fb010614cf0e6b43c20f59fdacfd2
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ShieldCollisionScript
-  - hash:
-      serializedVersion: 2
-      Hash: a701579498af5469228386ec9049a814
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnemySpaceshipCollisions
   - hash:
       serializedVersion: 2
       Hash: 42da54c5f41dc766fbf464cc6a9731a8
@@ -271,10 +155,160 @@ ScriptsOnlyBuild:
     className: chargingSkillScript
   - hash:
       serializedVersion: 2
+      Hash: 1a294b8f222fc1368df37e1594c95954
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: fixPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 33c25e853ea3d57b43d36119ae73232e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: activate
+  - hash:
+      serializedVersion: 2
+      Hash: 84ebe03e4481b4ce53eb3d47fb6290f5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceShipSkills
+  - hash:
+      serializedVersion: 2
+      Hash: 0367ba8d324312aba777128dd2505473
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ReturnToMainGameScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 66873157dba13a01bd646a8752034eed
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowGameObjectTransform
+  - hash:
+      serializedVersion: 2
+      Hash: f9653c992d84adc22ed6b105283c5ea0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SecondaryEnemySpaceshipCollisionsScript
+  - hash:
+      serializedVersion: 2
+      Hash: bfd16a050252160c4679edc855d42f61
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: rotationAlwaysIsZero
+  - hash:
+      serializedVersion: 2
+      Hash: f4158a2191174ec6a495d8cacdc9156c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainGameSceneSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: f293bcce640dff6d8b6dae8d2501ba2e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceShipP2Script
+  - hash:
+      serializedVersion: 2
       Hash: 959f26af2ebdb4534394395e45bbe048
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: HideMouseScript
+  - hash:
+      serializedVersion: 2
+      Hash: 36209883dba578a6352d57c1b78ac355
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpriteTransformScript
+  - hash:
+      serializedVersion: 2
+      Hash: c2184072a07c086cfeee2abd02f880d7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpaceshipMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 9f9070463b4412ec8e7a000490f2cc45
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: detachParent
+  - hash:
+      serializedVersion: 2
+      Hash: ce3c9b6256e1d01f0639ab627338ac94
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpaceshipLifeScript
+  - hash:
+      serializedVersion: 2
+      Hash: cf456f3f6ee78015e26bf908dd955dbe
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 02785fed5688d64de8c9db0e49963804
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceshipP2Movement
+  - hash:
+      serializedVersion: 2
+      Hash: 2c5312d74c022d596639ed8749eee470
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShowCursorScript
+  - hash:
+      serializedVersion: 2
+      Hash: a8671dff53b1e1a51ec9a46f28812e9b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainShipRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 86e6b2e8c613e56f212a3ffa4b337d72
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceShipP2Collision
+  - hash:
+      serializedVersion: 2
+      Hash: 0a1fb010614cf0e6b43c20f59fdacfd2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShieldCollisionScript
+  - hash:
+      serializedVersion: 2
+      Hash: 9782309cfd1c4fd3db9260e9b0177a65
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceshipP1Movement
+  - hash:
+      serializedVersion: 2
+      Hash: 77b5cfbed145966d32939aba57c536f4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpaceShipSkills
+  - hash:
+      serializedVersion: 2
+      Hash: 1fba6efc8257ff518477441458768798
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemySpaceshipCollisions
+  - hash:
+      serializedVersion: 2
+      Hash: 38d0211630a53adc1d67d3cb6d69db32
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainSpaceShipP1Collisions
+  - hash:
+      serializedVersion: 2
+      Hash: d9bed30d6e1a65fc4d78629a501115d7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: mainSpaceshipAndBoundariesCollisions
+  - hash:
+      serializedVersion: 2
+      Hash: 422f54131399781dfda23586b5402029
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MessageSwitcherScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainGameScene.unity

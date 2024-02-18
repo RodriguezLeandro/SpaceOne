@@ -75,8 +75,8 @@ public class EnemySpaceshipCollisions : MonoBehaviour
 
     private void updateMainSpaceshipSprites() 
     {
-        GameObject mainSpaceship01 = GameObject.Find("MainSpaceshipP1_0").gameObject;
-        GameObject mainSpaceship02 = GameObject.Find("MainSpaceshipP2_0").gameObject;
+        GameObject mainSpaceship01 = GameObject.Find("MainSpaceshipP1_0");
+        GameObject mainSpaceship02 = GameObject.Find("MainSpaceshipP2_0");
         Sprite newSprite = mainSpaceship01.GetComponent<SpriteTransformScript>().level2TransformSprite;
         Sprite newSprite2 = mainSpaceship02.GetComponent<SpriteTransformScript>().level2TransformSprite;
 

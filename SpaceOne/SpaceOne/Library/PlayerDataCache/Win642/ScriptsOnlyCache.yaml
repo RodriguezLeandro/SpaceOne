@@ -5,8 +5,12 @@ ScriptsOnlyBuild:
     - EnemySpaceshipCollisions
     - EnemySpaceshipMovement
     - EnemySpawner
+    - ExitScript
+    - FadeControllerScript
     - FollowGameObjectTransform
+    - GoToMainGameScreen
     - HideMouseScript
+    - InstantiateTransformOnEnable
     - MainGameSceneSwitcher
     - MainSpaceShipP1Collisions
     - MainSpaceShipP2Collision
@@ -15,13 +19,16 @@ ScriptsOnlyBuild:
     - MainSpaceshipP1Movement
     - MainSpaceshipP2Movement
     - MessageSwitcherScript
+    - ReturnToInitialScreen
     - ReturnToMainGameScreen
     - SecondaryEnemySpaceshipCollisionsScript
     - ShieldCollisionScript
     - ShowCursorScript
     - SpriteTransformScript
+    - UpdateLaserMovement
     - chargingSkillScript
     - fixPosition
+    - rotateLoadingScript
     - rotationAlwaysIsZero
     - setActive
     UnityEditor.TestRunner.dll:
@@ -32,7 +39,7 @@ ScriptsOnlyBuild:
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/GameOverScene.unity:
+    Assets/Scenes/Controls2Players.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -45,6 +52,150 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 26402}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/ControlsPlayer1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 26402}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/ControlsPlayer2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 26402}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/GameOverScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 18636}
+    - Class: 114
+      Script: {instanceID: 18638}
+    - Class: 114
+      Script: {instanceID: 18810}
+    - Class: 114
+      Script: {instanceID: 19054}
+    - Class: 114
+      Script: {instanceID: 19074}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/InitialScreenScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 81
@@ -54,11 +205,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18626}
+      Script: {instanceID: 18674}
     - Class: 114
-      Script: {instanceID: 19056}
-    - Class: 114
-      Script: {instanceID: 32102}
+      Script: {instanceID: 24398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -86,50 +235,60 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18576}
+      Script: {instanceID: 18586}
     - Class: 114
-      Script: {instanceID: 18580}
-    - Class: 114
-      Script: {instanceID: 18588}
+      Script: {instanceID: 18590}
     - Class: 114
       Script: {instanceID: 18598}
     - Class: 114
-      Script: {instanceID: 18640}
+      Script: {instanceID: 18608}
     - Class: 114
-      Script: {instanceID: 18654}
+      Script: {instanceID: 18652}
     - Class: 114
-      Script: {instanceID: 18726}
+      Script: {instanceID: 18666}
     - Class: 114
-      Script: {instanceID: 18734}
+      Script: {instanceID: 18740}
     - Class: 114
-      Script: {instanceID: 18754}
+      Script: {instanceID: 18748}
     - Class: 114
-      Script: {instanceID: 18822}
+      Script: {instanceID: 18768}
     - Class: 114
-      Script: {instanceID: 18840}
+      Script: {instanceID: 18838}
     - Class: 114
-      Script: {instanceID: 18860}
+      Script: {instanceID: 18856}
     - Class: 114
-      Script: {instanceID: 19012}
+      Script: {instanceID: 18876}
     - Class: 114
-      Script: {instanceID: 19044}
+      Script: {instanceID: 19028}
     - Class: 114
-      Script: {instanceID: 19146}
+      Script: {instanceID: 19062}
     - Class: 114
-      Script: {instanceID: 19148}
+      Script: {instanceID: 19164}
     - Class: 114
-      Script: {instanceID: 19154}
+      Script: {instanceID: 19166}
     - Class: 114
-      Script: {instanceID: 19198}
+      Script: {instanceID: 19172}
     - Class: 114
-      Script: {instanceID: 19254}
+      Script: {instanceID: 19216}
     - Class: 114
-      Script: {instanceID: 19262}
+      Script: {instanceID: 19272}
+    - Class: 114
+      Script: {instanceID: 19280}
+    - Class: 114
+      Script: {instanceID: 40566}
+    - Class: 114
+      Script: {instanceID: 41428}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -167,7 +326,7 @@ ScriptsOnlyBuild:
     className: activate
   - hash:
       serializedVersion: 2
-      Hash: 84ebe03e4481b4ce53eb3d47fb6290f5
+      Hash: 6515fb8258ddd2218f5b6a4dc7c013d6
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MainSpaceShipSkills
@@ -177,6 +336,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ReturnToMainGameScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 632a140a8092d107b62297e301533929
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FadeControllerScript
   - hash:
       serializedVersion: 2
       Hash: 66873157dba13a01bd646a8752034eed
@@ -191,6 +356,12 @@ ScriptsOnlyBuild:
     className: SecondaryEnemySpaceshipCollisionsScript
   - hash:
       serializedVersion: 2
+      Hash: c5d898e5f7f3a2fec95fbd170c189bfb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoToMainGameScreen
+  - hash:
+      serializedVersion: 2
       Hash: bfd16a050252160c4679edc855d42f61
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -203,10 +374,16 @@ ScriptsOnlyBuild:
     className: MainGameSceneSwitcher
   - hash:
       serializedVersion: 2
-      Hash: f293bcce640dff6d8b6dae8d2501ba2e
+      Hash: 9db412f81409d2e7e33d04d28378c9f3
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MainSpaceShipP2Script
+  - hash:
+      serializedVersion: 2
+      Hash: 422f54131399781dfda23586b5402029
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MessageSwitcherScript
   - hash:
       serializedVersion: 2
       Hash: 959f26af2ebdb4534394395e45bbe048
@@ -243,6 +420,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: EnemySpawner
+  - hash:
+      serializedVersion: 2
+      Hash: d37e3d73f6017f49a4e0a397e25d03c7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ReturnToInitialScreen
   - hash:
       serializedVersion: 2
       Hash: 02785fed5688d64de8c9db0e49963804
@@ -305,12 +488,34 @@ ScriptsOnlyBuild:
     className: mainSpaceshipAndBoundariesCollisions
   - hash:
       serializedVersion: 2
-      Hash: 422f54131399781dfda23586b5402029
+      Hash: 57a27ddb5057ce0932bb3b224f6b78e8
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: MessageSwitcherScript
+    className: ExitScript
+  - hash:
+      serializedVersion: 2
+      Hash: d6c4e8859b0dbf289863f19a1415e1c3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: rotateLoadingScript
+  - hash:
+      serializedVersion: 2
+      Hash: efb6c7cb733a43079f585eb70efb507a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InstantiateTransformOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 9be09a2cddbab441fb4d73d3b9eea33c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UpdateLaserMovement
   platform: 19
   scenePathNames:
+  - Assets/Scenes/InitialScreenScene.unity
   - Assets/Scenes/MainGameScene.unity
   - Assets/Scenes/GameOverScene.unity
+  - Assets/Scenes/Controls2Players.unity
+  - Assets/Scenes/ControlsPlayer1.unity
+  - Assets/Scenes/ControlsPlayer2.unity
   playerPath: C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne.exe

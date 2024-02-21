@@ -77,23 +77,32 @@ public class SecondaryEnemySpaceshipCollisionsScript : MonoBehaviour
     {
         GameObject mainSpaceship01 = GameObject.Find("MainSpaceshipP1_0");
         GameObject mainSpaceship02 = GameObject.Find("MainSpaceshipP2_0");
-        Sprite newSprite = mainSpaceship01.GetComponent<SpriteTransformScript>().level5TransformSprite;
-        Sprite newSprite2 = mainSpaceship02.GetComponent<SpriteTransformScript>().level5TransformSprite;
 
-        // Get the Sprite Renderer component attached to player gameObject
-        SpriteRenderer spriteRenderer = mainSpaceship01.GetComponent<SpriteRenderer>();
-        SpriteRenderer spriteRenderer2 = mainSpaceship02.GetComponent<SpriteRenderer>();
-
-        if (spriteRenderer != null && newSprite != null)
+        if (mainSpaceship01 != null)
         {
-            // Assign the new sprite to the Sprite Renderer component
-            mainSpaceship01.GetComponent<SpriteRenderer>().sprite = newSprite;
+            Sprite newSprite = mainSpaceship01.GetComponent<SpriteTransformScript>().level5TransformSprite;
+
+            // Get the Sprite Renderer component attached to player gameObject
+            SpriteRenderer spriteRenderer = mainSpaceship01.GetComponent<SpriteRenderer>();
+
+            if (spriteRenderer != null && newSprite != null)
+            {
+                // Assign the new sprite to the Sprite Renderer component
+                mainSpaceship01.GetComponent<SpriteRenderer>().sprite = newSprite;
+            }
         }
 
-        if (spriteRenderer2 != null && newSprite2 != null)
+        if (mainSpaceship02 != null) 
         {
-            // Assign the new sprite to the Sprite Renderer component
-            mainSpaceship02.GetComponent<SpriteRenderer>().sprite = newSprite2;
+            Sprite newSprite2 = mainSpaceship02.GetComponent<SpriteTransformScript>().level5TransformSprite;
+
+            SpriteRenderer spriteRenderer2 = mainSpaceship02.GetComponent<SpriteRenderer>();
+
+            if (spriteRenderer2 != null && newSprite2 != null)
+            {
+                // Assign the new sprite to the Sprite Renderer component
+                mainSpaceship02.GetComponent<SpriteRenderer>().sprite = newSprite2;
+            }
         }
     }
 }

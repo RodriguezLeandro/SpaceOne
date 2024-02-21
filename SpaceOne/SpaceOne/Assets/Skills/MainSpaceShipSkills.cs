@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class MainSpaceShipSkills : MonoBehaviour
@@ -6,6 +5,7 @@ public class MainSpaceShipSkills : MonoBehaviour
 
     public GameObject fireballPrefab; // Assign the fireball prefab in the Inspector
     public GameObject laserPrefab; // Assign the laser prefab in the Inspector
+    public GameObject newLaserPrefab; // Assign the laser prefab in the Inspector
     public float laserDuration = 5f; // Assing the laser duration
     public float fireballSpeed = 5f; // Adjust the speed of the fireball
 
@@ -13,6 +13,7 @@ public class MainSpaceShipSkills : MonoBehaviour
     void Start()
     {
         laserPrefab.SetActive(false);
+        newLaserPrefab.SetActive(false);
     }
 
     // Update is called once per frame
@@ -27,8 +28,19 @@ public class MainSpaceShipSkills : MonoBehaviour
         // Check for K button click
         if (Input.GetKeyDown(KeyCode.K))
         {
-            GameObject setActiveGameObject = laserPrefab.GetComponent<setActive>().gameObject;
-            setActiveGameObject.SetActive(true);
+            GameObject secondEnemy = GameObject.Find("EnemySpaceshipV2");
+
+            if (secondEnemy != null)
+            {
+                GameObject setActiveGameObject = laserPrefab.GetComponent<setActive>().gameObject;
+                setActiveGameObject.SetActive(true);
+            }
+
+            if (secondEnemy == null)
+            {
+                GameObject setActiveGameObject = newLaserPrefab.GetComponent<setActive>().gameObject;
+                setActiveGameObject.SetActive(true);
+            }
         }
     }
 

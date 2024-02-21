@@ -7,14 +7,12 @@ public class chargingSkillScript : MonoBehaviour
     public float endDuration = 4f;
 
     private float chargeTimer = 0f;
-    private BoxCollider2D skillEffectBoxCollider2D;
+    private BoxCollider2D[] skillEffectsBoxCollider2D;
 
     // Start is called before the first frame update
     void Start()
     {
-        skillEffectBoxCollider2D = GetComponent<BoxCollider2D>();
-
-        skillEffectBoxCollider2D.enabled = false;
+        disableBoxColliders();
     }
 
     // Update is called once per frame
@@ -23,7 +21,7 @@ public class chargingSkillScript : MonoBehaviour
         // Increment the charge timer
         chargeTimer += Time.deltaTime;
 
-        if (chargeTimer < chargeDuration) 
+        if (chargeTimer < chargeDuration)
         {
             float alpha = Mathf.Lerp(0f, 1f, chargeTimer / chargeDuration / 4);
             Color color = gameObject.GetComponent<SpriteRenderer>().material.color;
@@ -31,12 +29,12 @@ public class chargingSkillScript : MonoBehaviour
             gameObject.GetComponent<SpriteRenderer>().material.color = color;
         }
 
-        if (chargeTimer > chargeDuration) 
+        if (chargeTimer > chargeDuration)
         {
             Color color = gameObject.GetComponent<SpriteRenderer>().material.color;
             color.a = 1f;
             gameObject.GetComponent<SpriteRenderer>().material.color = color;
-            skillEffectBoxCollider2D.enabled = true;
+            enableBoxColliders();
         }
 
         if (chargeTimer > endDuration)
@@ -45,9 +43,29 @@ public class chargingSkillScript : MonoBehaviour
             color.a = 0f;
             gameObject.GetComponent<SpriteRenderer>().material.color = color;
             chargeTimer = 0f;
-            skillEffectBoxCollider2D.enabled = false;
+            disableBoxColliders();
             GameObject setActive = gameObject.GetComponent<setActive>().gameObject;
             setActive.SetActive(false);
+        }
+    }
+
+    private void disableBoxColliders() 
+    {
+        skillEffectsBoxCollider2D = GetComponentsInChildren<BoxCollider2D>();
+
+        foreach (BoxCollider2D boxCollider in skillEffectsBoxCollider2D)
+        {
+            boxCollider.enabled = false;
+        }
+    }
+
+    private void enableBoxColliders()
+    {
+        skillEffectsBoxCollider2D = GetComponentsInChildren<BoxCollider2D>();
+
+        foreach (BoxCollider2D boxCollider in skillEffectsBoxCollider2D)
+        {
+            boxCollider.enabled = true;
         }
     }
 }

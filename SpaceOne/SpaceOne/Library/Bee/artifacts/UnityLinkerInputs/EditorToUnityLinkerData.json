@@ -28,7 +28,11 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -63,6 +67,20 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "ExitScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "FadeControllerScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "fixPosition",
             "moduleName": "",
             "usedInScenes": []
@@ -80,7 +98,11 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -94,7 +116,21 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "GoToMainGameScreen",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "HideMouseScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "InstantiateTransformOnEnable",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -104,7 +140,11 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -177,7 +217,11 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -194,7 +238,11 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -208,7 +256,21 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "ReturnToInitialScreen",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "ReturnToMainGameScreen",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "rotateLoadingScript",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -302,7 +364,11 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -350,11 +416,42 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioResource",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/MainGameScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SampleClip",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/MainGameScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioBehaviour",
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
+                "Assets/Scenes/MainGameScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioClip",
+            "fullManagedTypeName": "UnityEngine.AudioClip",
+            "moduleName": "Audio",
+            "usedInScenes": [
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -364,7 +461,20 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
+                "Assets/Scenes/MainGameScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioSource",
+            "fullManagedTypeName": "UnityEngine.AudioSource",
+            "moduleName": "Audio",
+            "usedInScenes": [
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -374,7 +484,11 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -385,6 +499,7 @@
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -394,8 +509,39 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CapsuleCollider2D",
+            "fullManagedTypeName": "UnityEngine.CapsuleCollider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/MainGameScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CircleCollider2D",
+            "fullManagedTypeName": "UnityEngine.CircleCollider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/InitialScreenScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Collider",
+            "fullManagedTypeName": "UnityEngine.Collider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/GameOverScene.unity"
             ]
         },
         {
@@ -405,6 +551,7 @@
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -414,7 +561,11 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -424,7 +575,11 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/GameOverScene.unity"
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
+                "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity"
             ]
         },
         {
@@ -433,7 +588,11 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -443,7 +602,11 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -453,8 +616,48 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Mesh",
+            "fullManagedTypeName": "UnityEngine.Mesh",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/GameOverScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshCollider",
+            "fullManagedTypeName": "UnityEngine.MeshCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/GameOverScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshFilter",
+            "fullManagedTypeName": "UnityEngine.MeshFilter",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/GameOverScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshRenderer",
+            "fullManagedTypeName": "UnityEngine.MeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/GameOverScene.unity"
             ]
         },
         {
@@ -463,7 +666,11 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -473,7 +680,11 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -490,7 +701,11 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -507,7 +722,11 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -526,7 +745,11 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -536,7 +759,11 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -546,7 +773,11 @@
             "fullManagedTypeName": "UnityEngine.SpriteRenderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -556,7 +787,11 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -566,7 +801,11 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -576,7 +815,11 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
         },
@@ -586,9 +829,20 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
                 "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGameScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UpdateLaserMovement",
+            "moduleName": "",
+            "usedInScenes": []
         }
     ],
     "allNativeTypes": [

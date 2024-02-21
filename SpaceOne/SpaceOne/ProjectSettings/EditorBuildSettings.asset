@@ -6,10 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/InitialScreenScene.unity
+    guid: eab7131b070f438448b06ea078f17253
+  - enabled: 1
     path: Assets/Scenes/MainGameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/GameOverScene.unity
     guid: b58b030ec0b02a94a8d295693a2c8bed
+  - enabled: 1
+    path: Assets/Scenes/Controls2Players.unity
+    guid: b5995c673c56db64398425fe2399217e
+  - enabled: 1
+    path: Assets/Scenes/ControlsPlayer1.unity
+    guid: 7642fa2100729a647b8e88b21ffc96c8
+  - enabled: 1
+    path: Assets/Scenes/ControlsPlayer2.unity
+    guid: f00abacf33d9eb14d970e27a50ba1731
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -5,9 +5,13 @@
 		<type fullname="EnemySpaceshipMovement" preserve="nothing"/>
 		<type fullname="EnemySpaceShipSkills" preserve="nothing"/>
 		<type fullname="EnemySpawner" preserve="nothing"/>
+		<type fullname="ExitScript" preserve="nothing"/>
+		<type fullname="FadeControllerScript" preserve="nothing"/>
 		<type fullname="fixPosition" preserve="nothing"/>
 		<type fullname="FollowGameObjectTransform" preserve="nothing"/>
+		<type fullname="GoToMainGameScreen" preserve="nothing"/>
 		<type fullname="HideMouseScript" preserve="nothing"/>
+		<type fullname="InstantiateTransformOnEnable" preserve="nothing"/>
 		<type fullname="MainGameSceneSwitcher" preserve="nothing"/>
 		<type fullname="MainSpaceShipP1Collisions" preserve="nothing"/>
 		<type fullname="MainSpaceshipP1Movement" preserve="nothing"/>
@@ -16,13 +20,16 @@
 		<type fullname="MainSpaceShipP2Script" preserve="nothing"/>
 		<type fullname="MainSpaceShipSkills" preserve="nothing"/>
 		<type fullname="MessageSwitcherScript" preserve="nothing"/>
+		<type fullname="ReturnToInitialScreen" preserve="nothing"/>
 		<type fullname="ReturnToMainGameScreen" preserve="nothing"/>
+		<type fullname="rotateLoadingScript" preserve="nothing"/>
 		<type fullname="rotationAlwaysIsZero" preserve="nothing"/>
 		<type fullname="SecondaryEnemySpaceshipCollisionsScript" preserve="nothing"/>
 		<type fullname="setActive" preserve="nothing"/>
 		<type fullname="ShieldCollisionScript" preserve="nothing"/>
 		<type fullname="ShowCursorScript" preserve="nothing"/>
 		<type fullname="SpriteTransformScript" preserve="nothing"/>
+		<type fullname="UpdateLaserMovement" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine">
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>
@@ -35,17 +42,27 @@
 		<type fullname="UnityEditor.TagManager" preserve="nothing"/>
 		<type fullname="UnityEditor.TimeManager" preserve="nothing"/>
 		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
+		<type fullname="UnityEngine.Audio.AudioResource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
+		<type fullname="UnityEngine.CapsuleCollider2D" preserve="nothing"/>
+		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
+		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Material" preserve="nothing"/>
+		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.Object" preserve="nothing"/>
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>

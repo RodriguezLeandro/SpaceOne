@@ -1,16 +1,28 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BossAttackController
+    - BossAttackScript
+    - BossAttackScript01
+    - BossAttackScript02
     - EnemySpaceShipSkills
     - EnemySpaceshipCollisions
     - EnemySpaceshipMovement
     - EnemySpawner
     - ExitScript
     - FadeControllerScript
+    - FadeInScript
+    - FinalBossMovement
     - FollowGameObjectTransform
-    - GoToMainGameScreen
+    - GoToControlsPlayer1Screen
+    - GoToControlsPlayer2Screen
+    - GoToControlsTwoPlayersScreen
+    - GoToMainGamePlayer1Screen
+    - GoToMainGamePlayer2Screen
+    - GoToMainGameTwoPlayersScreen
+    - GoToMissionScreen
+    - GoToPlayerSelectScreen
     - HideMouseScript
-    - InstantiateTransformOnEnable
     - MainGameSceneSwitcher
     - MainSpaceShipP1Collisions
     - MainSpaceShipP2Collision
@@ -21,11 +33,11 @@ ScriptsOnlyBuild:
     - MessageSwitcherScript
     - ReturnToInitialScreen
     - ReturnToMainGameScreen
+    - RotationIsGreaterThanZeroButNotMuch
     - SecondaryEnemySpaceshipCollisionsScript
     - ShieldCollisionScript
     - ShowCursorScript
     - SpriteTransformScript
-    - UpdateLaserMovement
     - chargingSkillScript
     - fixPosition
     - rotateLoadingScript
@@ -59,7 +71,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 26402}
+      Script: {instanceID: 18866}
+    - Class: 114
+      Script: {instanceID: 26598}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -90,7 +104,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 26402}
+      Script: {instanceID: 18866}
+    - Class: 114
+      Script: {instanceID: 28814}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -121,7 +137,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 26402}
+      Script: {instanceID: 18866}
+    - Class: 114
+      Script: {instanceID: 54730}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -162,15 +180,15 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18636}
+      Script: {instanceID: 18744}
     - Class: 114
-      Script: {instanceID: 18638}
+      Script: {instanceID: 18746}
     - Class: 114
-      Script: {instanceID: 18810}
+      Script: {instanceID: 18938}
     - Class: 114
-      Script: {instanceID: 19054}
+      Script: {instanceID: 19216}
     - Class: 114
-      Script: {instanceID: 19074}
+      Script: {instanceID: 19238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -205,9 +223,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18674}
+      Script: {instanceID: 18686}
     - Class: 114
-      Script: {instanceID: 24398}
+      Script: {instanceID: 18782}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -218,7 +236,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
-    Assets/Scenes/MainGameScene.unity:
+    Assets/Scenes/MainGamePlayer1Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -235,7 +253,177 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
-    - Class: 70
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 18688}
+    - Class: 114
+      Script: {instanceID: 18690}
+    - Class: 114
+      Script: {instanceID: 18694}
+    - Class: 114
+      Script: {instanceID: 18702}
+    - Class: 114
+      Script: {instanceID: 18712}
+    - Class: 114
+      Script: {instanceID: 18724}
+    - Class: 114
+      Script: {instanceID: 18760}
+    - Class: 114
+      Script: {instanceID: 18774}
+    - Class: 114
+      Script: {instanceID: 18788}
+    - Class: 114
+      Script: {instanceID: 18860}
+    - Class: 114
+      Script: {instanceID: 18870}
+    - Class: 114
+      Script: {instanceID: 18968}
+    - Class: 114
+      Script: {instanceID: 18986}
+    - Class: 114
+      Script: {instanceID: 19006}
+    - Class: 114
+      Script: {instanceID: 19144}
+    - Class: 114
+      Script: {instanceID: 19172}
+    - Class: 114
+      Script: {instanceID: 19176}
+    - Class: 114
+      Script: {instanceID: 19184}
+    - Class: 114
+      Script: {instanceID: 19344}
+    - Class: 114
+      Script: {instanceID: 19396}
+    - Class: 114
+      Script: {instanceID: 19456}
+    - Class: 114
+      Script: {instanceID: 19464}
+    - Class: 114
+      Script: {instanceID: 19524}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/MainGamePlayer2Scene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 18688}
+    - Class: 114
+      Script: {instanceID: 18690}
+    - Class: 114
+      Script: {instanceID: 18694}
+    - Class: 114
+      Script: {instanceID: 18724}
+    - Class: 114
+      Script: {instanceID: 18760}
+    - Class: 114
+      Script: {instanceID: 18774}
+    - Class: 114
+      Script: {instanceID: 18788}
+    - Class: 114
+      Script: {instanceID: 18860}
+    - Class: 114
+      Script: {instanceID: 18870}
+    - Class: 114
+      Script: {instanceID: 18890}
+    - Class: 114
+      Script: {instanceID: 18968}
+    - Class: 114
+      Script: {instanceID: 18986}
+    - Class: 114
+      Script: {instanceID: 19006}
+    - Class: 114
+      Script: {instanceID: 19144}
+    - Class: 114
+      Script: {instanceID: 19172}
+    - Class: 114
+      Script: {instanceID: 19176}
+    - Class: 114
+      Script: {instanceID: 19184}
+    - Class: 114
+      Script: {instanceID: 19226}
+    - Class: 114
+      Script: {instanceID: 19334}
+    - Class: 114
+      Script: {instanceID: 19336}
+    - Class: 114
+      Script: {instanceID: 19396}
+    - Class: 114
+      Script: {instanceID: 19456}
+    - Class: 114
+      Script: {instanceID: 19524}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/MainGameTwoPlayersScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -246,49 +434,129 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18586}
+      Script: {instanceID: 18688}
     - Class: 114
-      Script: {instanceID: 18590}
+      Script: {instanceID: 18690}
     - Class: 114
-      Script: {instanceID: 18598}
+      Script: {instanceID: 18694}
     - Class: 114
-      Script: {instanceID: 18608}
+      Script: {instanceID: 18702}
     - Class: 114
-      Script: {instanceID: 18652}
+      Script: {instanceID: 18712}
     - Class: 114
-      Script: {instanceID: 18666}
+      Script: {instanceID: 18724}
     - Class: 114
-      Script: {instanceID: 18740}
+      Script: {instanceID: 18760}
     - Class: 114
-      Script: {instanceID: 18748}
+      Script: {instanceID: 18774}
     - Class: 114
-      Script: {instanceID: 18768}
+      Script: {instanceID: 18788}
     - Class: 114
-      Script: {instanceID: 18838}
+      Script: {instanceID: 18860}
     - Class: 114
-      Script: {instanceID: 18856}
+      Script: {instanceID: 18870}
     - Class: 114
-      Script: {instanceID: 18876}
+      Script: {instanceID: 18890}
     - Class: 114
-      Script: {instanceID: 19028}
+      Script: {instanceID: 18968}
     - Class: 114
-      Script: {instanceID: 19062}
+      Script: {instanceID: 18986}
     - Class: 114
-      Script: {instanceID: 19164}
+      Script: {instanceID: 19006}
     - Class: 114
-      Script: {instanceID: 19166}
+      Script: {instanceID: 19144}
     - Class: 114
       Script: {instanceID: 19172}
     - Class: 114
-      Script: {instanceID: 19216}
+      Script: {instanceID: 19176}
     - Class: 114
-      Script: {instanceID: 19272}
+      Script: {instanceID: 19184}
     - Class: 114
-      Script: {instanceID: 19280}
+      Script: {instanceID: 19226}
     - Class: 114
-      Script: {instanceID: 40566}
+      Script: {instanceID: 19334}
     - Class: 114
-      Script: {instanceID: 41428}
+      Script: {instanceID: 19336}
+    - Class: 114
+      Script: {instanceID: 19344}
+    - Class: 114
+      Script: {instanceID: 19396}
+    - Class: 114
+      Script: {instanceID: 19456}
+    - Class: 114
+      Script: {instanceID: 19464}
+    - Class: 114
+      Script: {instanceID: 19524}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/MissionScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 23420}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/PlayerSelectScreen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 23432}
+    - Class: 114
+      Script: {instanceID: 28896}
+    - Class: 114
+      Script: {instanceID: 60910}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -302,10 +570,22 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: 57a27ddb5057ce0932bb3b224f6b78e8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExitScript
+  - hash:
+      serializedVersion: 2
       Hash: 42da54c5f41dc766fbf464cc6a9731a8
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: setActive
+  - hash:
+      serializedVersion: 2
+      Hash: b8504d53959e29e5da9627fefd67a0f5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FadeInScript
   - hash:
       serializedVersion: 2
       Hash: 24fa2e59e151d76d94edd405282082b0
@@ -326,10 +606,16 @@ ScriptsOnlyBuild:
     className: activate
   - hash:
       serializedVersion: 2
-      Hash: 6515fb8258ddd2218f5b6a4dc7c013d6
+      Hash: cb0f9e0f9ebf5326a58d206d64bd6f4e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MainSpaceShipSkills
+  - hash:
+      serializedVersion: 2
+      Hash: 1bd9dcbf67a0db00914ad78db84bcaf5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BossAttackScript01
   - hash:
       serializedVersion: 2
       Hash: 0367ba8d324312aba777128dd2505473
@@ -350,22 +636,34 @@ ScriptsOnlyBuild:
     className: FollowGameObjectTransform
   - hash:
       serializedVersion: 2
-      Hash: f9653c992d84adc22ed6b105283c5ea0
+      Hash: 90ce5f960f7c140a044e7e6c1648fb40
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SecondaryEnemySpaceshipCollisionsScript
   - hash:
       serializedVersion: 2
-      Hash: c5d898e5f7f3a2fec95fbd170c189bfb
+      Hash: 8c4bc7f6657eab21fc3e33a3ac1fe7c6
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: GoToMainGameScreen
+    className: GoToMissionScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 730b6d4b431847841dc6b7337eb8ca84
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BossAttackScript
   - hash:
       serializedVersion: 2
       Hash: bfd16a050252160c4679edc855d42f61
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: rotationAlwaysIsZero
+  - hash:
+      serializedVersion: 2
+      Hash: d6c4e8859b0dbf289863f19a1415e1c3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: rotateLoadingScript
   - hash:
       serializedVersion: 2
       Hash: f4158a2191174ec6a495d8cacdc9156c
@@ -410,10 +708,40 @@ ScriptsOnlyBuild:
     className: detachParent
   - hash:
       serializedVersion: 2
+      Hash: 9be09a2cddbab441fb4d73d3b9eea33c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UpdateLaserMovement
+  - hash:
+      serializedVersion: 2
       Hash: ce3c9b6256e1d01f0639ab627338ac94
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: EnemySpaceshipLifeScript
+  - hash:
+      serializedVersion: 2
+      Hash: 767275487fc0d2c3d60c000cbc2bf016
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: deactivateFinalBoss
+  - hash:
+      serializedVersion: 2
+      Hash: 7ac733fe15a5064f35a670e97de42c24
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BossAttackScript02
+  - hash:
+      serializedVersion: 2
+      Hash: 9d9bc53b151720dedcba9dd5ab65ef49
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FinalBossMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 478dcf39249e67a8b8ede70bbcaad277
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RotationIsGreaterThanZeroButNotMuch
   - hash:
       serializedVersion: 2
       Hash: cf456f3f6ee78015e26bf908dd955dbe
@@ -488,34 +816,68 @@ ScriptsOnlyBuild:
     className: mainSpaceshipAndBoundariesCollisions
   - hash:
       serializedVersion: 2
-      Hash: 57a27ddb5057ce0932bb3b224f6b78e8
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ExitScript
-  - hash:
-      serializedVersion: 2
-      Hash: d6c4e8859b0dbf289863f19a1415e1c3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: rotateLoadingScript
-  - hash:
-      serializedVersion: 2
       Hash: efb6c7cb733a43079f585eb70efb507a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: InstantiateTransformOnEnable
   - hash:
       serializedVersion: 2
-      Hash: 9be09a2cddbab441fb4d73d3b9eea33c
+      Hash: d6ac1e971accee014caa0b8996c9a265
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: UpdateLaserMovement
+    className: BossAttackController
+  - hash:
+      serializedVersion: 2
+      Hash: 99652600632a293ac3b66b00318b4088
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoToPlayerSelectScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7edd1067d9ee8d93ce043951e5044a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoToControlsTwoPlayersScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 39687ae9413a4b0fd63b91ae530732fb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoToMainGameTwoPlayersScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 25ce54040daf743358ff833ef37fa1ea
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoToMainGamePlayer1Screen
+  - hash:
+      serializedVersion: 2
+      Hash: f01753214b93066a8eeaab876737b4b3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoToControlsPlayer1Screen
+  - hash:
+      serializedVersion: 2
+      Hash: 99356e8da084198533209f64979ce634
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoToMainGamePlayer2Screen
+  - hash:
+      serializedVersion: 2
+      Hash: b8dbf2e05617ce29e33b573f11383624
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoToControlsPlayer2Screen
   platform: 19
   scenePathNames:
   - Assets/Scenes/InitialScreenScene.unity
-  - Assets/Scenes/MainGameScene.unity
-  - Assets/Scenes/GameOverScene.unity
+  - Assets/Scenes/MissionScene.unity
+  - Assets/Scenes/PlayerSelectScreen.unity
   - Assets/Scenes/Controls2Players.unity
+  - Assets/Scenes/MainGameTwoPlayersScene.unity
   - Assets/Scenes/ControlsPlayer1.unity
+  - Assets/Scenes/MainGamePlayer1Scene.unity
   - Assets/Scenes/ControlsPlayer2.unity
+  - Assets/Scenes/MainGamePlayer2Scene.unity
+  - Assets/Scenes/GameOverScene.unity
   playerPath: C:/Users/leand/Downloads/Unity Projects 2024/SpaceOne/Build/SpaceOne.exe

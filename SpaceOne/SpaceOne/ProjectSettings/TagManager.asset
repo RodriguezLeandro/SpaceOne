@@ -9,6 +9,7 @@ TagManager:
   - EnemySpaceship
   - EnemySkill
   - LightLaser
+  - FinalBoss
   layers:
   - Default
   - TransparentFX

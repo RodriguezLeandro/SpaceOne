@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GoToMainGameScreen : MonoBehaviour
+public class GoToMissionScreen : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class GoToMainGameScreen : MonoBehaviour
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
                 // Switch to the specified scene
-                SceneManager.LoadScene("MainGameScene");
+                SceneManager.LoadScene("MissionScene");
             }
         }
     }

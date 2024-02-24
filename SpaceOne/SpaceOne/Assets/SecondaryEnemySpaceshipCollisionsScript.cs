@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class SecondaryEnemySpaceshipCollisionsScript : MonoBehaviour
 {
+    public GameObject finalBoss;
     public float lifeCapacity = 3f;
     public float enemiesDestroyed = 0f;
     public float endEnemiesDestroyedQuantity = 3f;
@@ -17,6 +18,7 @@ public class SecondaryEnemySpaceshipCollisionsScript : MonoBehaviour
     {
         if (enemiesDestroyed == endEnemiesDestroyedQuantity)
         {
+            finalBoss.SetActive(true); 
             Destroy(gameObject);
 
             updateMainSpaceshipSprites();

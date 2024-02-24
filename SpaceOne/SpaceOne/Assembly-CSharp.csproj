@@ -61,32 +61,44 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GoToControlsPlayer2Screen.cs" />
+    <Compile Include="Assets\BossAttackScript.cs" />
     <Compile Include="Assets\rotateLoadingScript.cs" />
     <Compile Include="Assets\Ships\MainSpaceshipP2\MainSpaceShipP2Script.cs" />
     <Compile Include="Assets\ReturnToMainGameScreen.cs" />
     <Compile Include="Assets\FadeControllerScript.cs" />
+    <Compile Include="Assets\RotationIsGreaterThanZeroButNotMuch.cs" />
+    <Compile Include="Assets\FinalBossMovement.cs" />
     <Compile Include="Assets\fixPosition.cs" />
     <Compile Include="Assets\Skills\MainSpaceShipSkills.cs" />
     <Compile Include="Assets\EnemySpawner.cs" />
     <Compile Include="Assets\chargingSkillScript.cs" />
-    <Compile Include="Assets\Ships\MainSpaceshipP1\MainSpaceshipP1Rotation.cs" />
     <Compile Include="Assets\ExitScript.cs" />
+    <Compile Include="Assets\Ships\MainSpaceshipP1\MainSpaceshipP1Rotation.cs" />
     <Compile Include="Assets\GoToMainGameScreen.cs" />
     <Compile Include="Assets\SpriteTransformScript.cs" />
+    <Compile Include="Assets\FinalBossSkills.cs" />
     <Compile Include="Assets\ShieldCollisionScript.cs" />
     <Compile Include="Assets\HideMouseScript.cs" />
     <Compile Include="Assets\MessageSwitcherScript.cs" />
+    <Compile Include="Assets\BossAttackController.cs" />
     <Compile Include="Assets\Ships\MainSpaceshipP2\MainSpaceShipP2Movement.cs" />
     <Compile Include="Assets\EnemySpaceShipSkills.cs" />
+    <Compile Include="Assets\GoToMainGamePlayer1Screen.cs" />
     <Compile Include="Assets\MainSpaceShipP2Collision.cs" />
     <Compile Include="Assets\ShowCursorScript.cs" />
     <Compile Include="Assets\InstantiateTransformOnEnable.cs" />
     <Compile Include="Assets\EnemySpaceshipCollisions.cs" />
     <Compile Include="Assets\activate.cs" />
+    <Compile Include="Assets\GoToControlsTwoPlayersScreen.cs" />
+    <Compile Include="Assets\BossAttackScript02.cs" />
     <Compile Include="Assets\mainSpaceshipAndBoundariesCollisions.cs" />
+    <Compile Include="Assets\GoToMainGamePlayer2Screen.cs" />
+    <Compile Include="Assets\GoToMainGameTwoPlayersScreen.cs" />
     <Compile Include="Assets\UpdateLaserMovement.cs" />
     <Compile Include="Assets\Ships\MainSpaceshipP1\MainSpaceShipP1Movement.cs" />
     <Compile Include="Assets\rotationAlwaysIsZero.cs" />
+    <Compile Include="Assets\deactivateFinalBoss.cs" />
     <Compile Include="Assets\SecondaryEnemySpaceshipCollisionsScript.cs" />
     <Compile Include="Assets\FollowTransform.cs" />
     <Compile Include="Assets\ReturnToInitialScreen.cs" />
@@ -94,7 +106,10 @@
     <Compile Include="Assets\setActive.cs" />
     <Compile Include="Assets\detachParent.cs" />
     <Compile Include="Assets\EnemySpaceshipMovement.cs" />
+    <Compile Include="Assets\FadeInScript.cs" />
     <Compile Include="Assets\MainGameSceneSwitcher.cs" />
+    <Compile Include="Assets\GoToControlsPlayer1Screen.cs" />
+    <Compile Include="Assets\GoToPlayerSelectScreen.cs" />
     <Compile Include="Assets\MainSpaceShipP1Collisions.cs" />
   </ItemGroup>
   <ItemGroup>

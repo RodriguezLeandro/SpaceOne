@@ -3,6 +3,118 @@
   "WorkspaceRootPath": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|c:\\users\\leand\\downloads\\unity projects 2024\\spaceone\\spaceone\\assets\\gotocontrolsplayer2screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\gotocontrolsplayer2screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\gotocontrolsplayer1screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\gotocontrolsplayer1screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|c:\\users\\leand\\downloads\\unity projects 2024\\spaceone\\spaceone\\assets\\gotomaingameplayer2screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\gotomaingameplayer2screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\gotomaingameplayer1screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\gotomaingameplayer1screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\gotocontrolstwoplayersscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\gotocontrolstwoplayersscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\gotomaingametwoplayersscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\gotomaingametwoplayersscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\gotoplayerselectscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\gotoplayerselectscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\gotomaingamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\gotomaingamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\enemyspaceshipcollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspaceshipcollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\rotationisgreaterthanzerobutnotmuch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\rotationisgreaterthanzerobutnotmuch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\finalbossskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\finalbossskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\bossattackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\bossattackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\bossattackscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\bossattackscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\bossattackscript02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\bossattackscript02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\mainspaceshipp1collisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\mainspaceshipp1collisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\fadeinscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\fadeinscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\ships\\mainspaceshipp1\\mainspaceshipp1movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\ships\\mainspaceshipp1\\mainspaceshipp1movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\skills\\mainspaceshipskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\skills\\mainspaceshipskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\setactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\setactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\secondaryenemyspaceshipcollisionsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\secondaryenemyspaceshipcollisionsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\chargingskillscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\chargingskillscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\fadecontrollerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\fadecontrollerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\enemyspaceshipmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspaceshipmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\finalbossmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\finalbossmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\ships\\mainspaceshipp2\\mainspaceshipp2script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\ships\\mainspaceshipp2\\mainspaceshipp2script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\activate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\activate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\followtransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\followtransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\instantiatetransformonenable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\instantiatetransformonenable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,36 +123,8 @@
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\mainspaceshipandboundariescollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|c:\\users\\leand\\downloads\\unity projects 2024\\spaceone\\spaceone\\assets\\updatelasermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\updatelasermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\updatelasermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|c:\\users\\leand\\downloads\\unity projects 2024\\spaceone\\spaceone\\assets\\skills\\mainspaceshipskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\skills\\mainspaceshipskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\followtransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\followtransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\ships\\mainspaceshipp2\\mainspaceshipp2script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\ships\\mainspaceshipp2\\mainspaceshipp2script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\chargingskillscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\chargingskillscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\setactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\setactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\enemyspaceshipcollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspaceshipcollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\mainspaceshipp1collisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\mainspaceshipp1collisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\mainspaceshipp2collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,14 +147,6 @@
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\exitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\gotomaingamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\gotomaingamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\secondaryenemyspaceshipcollisionsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\secondaryenemyspaceshipcollisionsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\returntoinitialscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\returntoinitialscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,32 +159,12 @@
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\fadeshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\fadecontrollerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\fadecontrollerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\showcursorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\showcursorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\messageswitcherscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\messageswitcherscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\spritetransformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\spritetransformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\ships\\mainspaceshipp1\\mainspaceshipp1movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\ships\\mainspaceshipp1\\mainspaceshipp1movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\enemyspaceshipmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspaceshipmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\maingamesceneswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\fixposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\activate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\activate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\assets\\detachparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C738FAEC-D9D7-FC6F-3878-E0475BD0EDEC}|Assembly-CSharp.csproj|solutionrelative:assets\\detachparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -142,47 +194,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "MainSpaceShipSkills.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Skills\\MainSpaceShipSkills.cs",
               "RelativeDocumentMoniker": "Assets\\Skills\\MainSpaceShipSkills.cs",
               "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Skills\\MainSpaceShipSkills.cs",
               "RelativeToolTip": "Assets\\Skills\\MainSpaceShipSkills.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAUwDMAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-14T20:05:44.523Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GoToControlsPlayer2Screen.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToControlsPlayer2Screen.cs",
+              "RelativeDocumentMoniker": "Assets\\GoToControlsPlayer2Screen.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToControlsPlayer2Screen.cs",
+              "RelativeToolTip": "Assets\\GoToControlsPlayer2Screen.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T12:45:41.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UpdateLaserMovement.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\UpdateLaserMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\UpdateLaserMovement.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\UpdateLaserMovement.cs",
-              "RelativeToolTip": "Assets\\UpdateLaserMovement.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwCAAAAAFAAAA",
+              "Title": "GoToMainGamePlayer2Screen.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGamePlayer2Screen.cs",
+              "RelativeDocumentMoniker": "Assets\\GoToMainGamePlayer2Screen.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGamePlayer2Screen.cs",
+              "RelativeToolTip": "Assets\\GoToMainGamePlayer2Screen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T11:33:14.508Z",
+              "WhenOpened": "2024-02-24T12:40:41.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InstantiateTransformOnEnable.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\InstantiateTransformOnEnable.cs",
-              "RelativeDocumentMoniker": "Assets\\InstantiateTransformOnEnable.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\InstantiateTransformOnEnable.cs",
-              "RelativeToolTip": "Assets\\InstantiateTransformOnEnable.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwB8AAAA1AAAA",
+              "DocumentIndex": 1,
+              "Title": "GoToControlsPlayer1Screen.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToControlsPlayer1Screen.cs",
+              "RelativeDocumentMoniker": "Assets\\GoToControlsPlayer1Screen.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToControlsPlayer1Screen.cs",
+              "RelativeToolTip": "Assets\\GoToControlsPlayer1Screen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T11:28:25.863Z",
+              "WhenOpened": "2024-02-24T12:22:14.076Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GoToMainGamePlayer1Screen.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGamePlayer1Screen.cs",
+              "RelativeDocumentMoniker": "Assets\\GoToMainGamePlayer1Screen.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGamePlayer1Screen.cs",
+              "RelativeToolTip": "Assets\\GoToMainGamePlayer1Screen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T12:17:26.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GoToMainGameTwoPlayersScreen.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGameTwoPlayersScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\GoToMainGameTwoPlayersScreen.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGameTwoPlayersScreen.cs",
+              "RelativeToolTip": "Assets\\GoToMainGameTwoPlayersScreen.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T12:12:47.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoToControlsTwoPlayersScreen.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToControlsTwoPlayersScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\GoToControlsTwoPlayersScreen.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToControlsTwoPlayersScreen.cs",
+              "RelativeToolTip": "Assets\\GoToControlsTwoPlayersScreen.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T12:07:47.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GoToPlayerSelectScreen.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToPlayerSelectScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\GoToPlayerSelectScreen.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToPlayerSelectScreen.cs",
+              "RelativeToolTip": "Assets\\GoToPlayerSelectScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T12:06:14.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SecondaryEnemySpaceshipCollisionsScript.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\SecondaryEnemySpaceshipCollisionsScript.cs",
+              "RelativeDocumentMoniker": "Assets\\SecondaryEnemySpaceshipCollisionsScript.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\SecondaryEnemySpaceshipCollisionsScript.cs",
+              "RelativeToolTip": "Assets\\SecondaryEnemySpaceshipCollisionsScript.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwG4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:16:43.754Z"
             },
             {
               "$type": "Document",
@@ -192,98 +316,37 @@
               "RelativeDocumentMoniker": "Assets\\EnemySpaceshipCollisions.cs",
               "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpaceshipCollisions.cs",
               "RelativeToolTip": "Assets\\EnemySpaceshipCollisions.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAuwCYAAAAnAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA0wBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-16T18:11:06.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "chargingSkillScript.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\chargingSkillScript.cs",
-              "RelativeDocumentMoniker": "Assets\\chargingSkillScript.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\chargingSkillScript.cs",
-              "RelativeToolTip": "Assets\\chargingSkillScript.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAuwCsAAAAtAAAA",
+              "DocumentIndex": 13,
+              "Title": "BossAttackScript02.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\BossAttackScript02.cs",
+              "RelativeDocumentMoniker": "Assets\\BossAttackScript02.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\BossAttackScript02.cs",
+              "RelativeToolTip": "Assets\\BossAttackScript02.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T18:11:06.497Z"
+              "WhenOpened": "2024-02-22T01:03:38.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainSpaceShipP2Script.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Script.cs",
-              "RelativeDocumentMoniker": "Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Script.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Script.cs",
-              "RelativeToolTip": "Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Script.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA5wCUAAAAQAAAA",
+              "DocumentIndex": 12,
+              "Title": "BossAttackScript.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\BossAttackScript.cs",
+              "RelativeDocumentMoniker": "Assets\\BossAttackScript.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\BossAttackScript.cs",
+              "RelativeToolTip": "Assets\\BossAttackScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T20:05:44.537Z"
+              "WhenOpened": "2024-02-22T01:07:16.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FollowTransform.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FollowTransform.cs",
-              "RelativeDocumentMoniker": "Assets\\FollowTransform.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FollowTransform.cs",
-              "RelativeToolTip": "Assets\\FollowTransform.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T18:11:06.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "mainSpaceshipAndBoundariesCollisions.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\mainSpaceshipAndBoundariesCollisions.cs",
-              "RelativeDocumentMoniker": "Assets\\mainSpaceshipAndBoundariesCollisions.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\mainSpaceshipAndBoundariesCollisions.cs",
-              "RelativeToolTip": "Assets\\mainSpaceshipAndBoundariesCollisions.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAuwCUAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T20:05:44.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainSpaceShipP1Collisions.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MainSpaceShipP1Collisions.cs",
-              "RelativeDocumentMoniker": "Assets\\MainSpaceShipP1Collisions.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MainSpaceShipP1Collisions.cs",
-              "RelativeToolTip": "Assets\\MainSpaceShipP1Collisions.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAABgAAABzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T20:05:44.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainSpaceShipP2Collision.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MainSpaceShipP2Collision.cs",
-              "RelativeDocumentMoniker": "Assets\\MainSpaceShipP2Collision.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MainSpaceShipP2Collision.cs",
-              "RelativeToolTip": "Assets\\MainSpaceShipP2Collision.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAABcAAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T20:05:44.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainSpaceShipP2Movement.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Movement.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Movement.cs",
-              "RelativeToolTip": "Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Movement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T20:05:44.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "setActive.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\setActive.cs",
               "RelativeDocumentMoniker": "Assets\\setActive.cs",
@@ -295,7 +358,247 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
+              "Title": "GoToMainGameScreen.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGameScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\GoToMainGameScreen.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGameScreen.cs",
+              "RelativeToolTip": "Assets\\GoToMainGameScreen.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:48:29.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "activate.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\activate.cs",
+              "RelativeDocumentMoniker": "Assets\\activate.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\activate.cs",
+              "RelativeToolTip": "Assets\\activate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:05:44.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FadeInScript.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FadeInScript.cs",
+              "RelativeDocumentMoniker": "Assets\\FadeInScript.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FadeInScript.cs",
+              "RelativeToolTip": "Assets\\FadeInScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T23:16:48.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FinalBossSkills.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FinalBossSkills.cs",
+              "RelativeDocumentMoniker": "Assets\\FinalBossSkills.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FinalBossSkills.cs",
+              "RelativeToolTip": "Assets\\FinalBossSkills.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T23:42:22.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BossAttackController.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\BossAttackController.cs",
+              "RelativeDocumentMoniker": "Assets\\BossAttackController.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\BossAttackController.cs",
+              "RelativeToolTip": "Assets\\BossAttackController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAuwDUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T23:47:42.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RotationIsGreaterThanZeroButNotMuch.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\RotationIsGreaterThanZeroButNotMuch.cs",
+              "RelativeDocumentMoniker": "Assets\\RotationIsGreaterThanZeroButNotMuch.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\RotationIsGreaterThanZeroButNotMuch.cs",
+              "RelativeToolTip": "Assets\\RotationIsGreaterThanZeroButNotMuch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T01:32:46.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainSpaceShipP1Collisions.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MainSpaceShipP1Collisions.cs",
+              "RelativeDocumentMoniker": "Assets\\MainSpaceShipP1Collisions.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MainSpaceShipP1Collisions.cs",
+              "RelativeToolTip": "Assets\\MainSpaceShipP1Collisions.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:05:44.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainSpaceShipP1Movement.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP1\\MainSpaceShipP1Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Ships\\MainSpaceshipP1\\MainSpaceShipP1Movement.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP1\\MainSpaceShipP1Movement.cs",
+              "RelativeToolTip": "Assets\\Ships\\MainSpaceshipP1\\MainSpaceShipP1Movement.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwCkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:05:44.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainSpaceShipP2Script.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Script.cs",
+              "RelativeDocumentMoniker": "Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Script.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Script.cs",
+              "RelativeToolTip": "Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Script.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:05:44.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "chargingSkillScript.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\chargingSkillScript.cs",
+              "RelativeDocumentMoniker": "Assets\\chargingSkillScript.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\chargingSkillScript.cs",
+              "RelativeToolTip": "Assets\\chargingSkillScript.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T18:11:06.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\EnemySpawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:05:44.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EnemySpaceshipMovement.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpaceshipMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemySpaceshipMovement.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpaceshipMovement.cs",
+              "RelativeToolTip": "Assets\\EnemySpaceshipMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:05:44.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FadeControllerScript.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FadeControllerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\FadeControllerScript.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FadeControllerScript.cs",
+              "RelativeToolTip": "Assets\\FadeControllerScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T17:41:41.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FinalBossMovement.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FinalBossMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\FinalBossMovement.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FinalBossMovement.cs",
+              "RelativeToolTip": "Assets\\FinalBossMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T11:53:29.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FollowTransform.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FollowTransform.cs",
+              "RelativeDocumentMoniker": "Assets\\FollowTransform.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FollowTransform.cs",
+              "RelativeToolTip": "Assets\\FollowTransform.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T18:11:06.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "mainSpaceshipAndBoundariesCollisions.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\mainSpaceshipAndBoundariesCollisions.cs",
+              "RelativeDocumentMoniker": "Assets\\mainSpaceshipAndBoundariesCollisions.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\mainSpaceshipAndBoundariesCollisions.cs",
+              "RelativeToolTip": "Assets\\mainSpaceshipAndBoundariesCollisions.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwCUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:05:44.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InstantiateTransformOnEnable.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\InstantiateTransformOnEnable.cs",
+              "RelativeDocumentMoniker": "Assets\\InstantiateTransformOnEnable.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\InstantiateTransformOnEnable.cs",
+              "RelativeToolTip": "Assets\\InstantiateTransformOnEnable.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwB8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T11:28:25.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateLaserMovement.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\UpdateLaserMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\UpdateLaserMovement.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\UpdateLaserMovement.cs",
+              "RelativeToolTip": "Assets\\UpdateLaserMovement.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwCAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T11:33:14.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MainSpaceShipP2Collision.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MainSpaceShipP2Collision.cs",
+              "RelativeDocumentMoniker": "Assets\\MainSpaceShipP2Collision.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MainSpaceShipP2Collision.cs",
+              "RelativeToolTip": "Assets\\MainSpaceShipP2Collision.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAABcAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:05:44.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainSpaceShipP2Movement.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Movement.cs",
+              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Movement.cs",
+              "RelativeToolTip": "Assets\\Ships\\MainSpaceshipP2\\MainSpaceShipP2Movement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:05:44.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "ShieldCollisionScript.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\ShieldCollisionScript.cs",
               "RelativeDocumentMoniker": "Assets\\ShieldCollisionScript.cs",
@@ -307,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 34,
               "Title": "rotateLoadingScript.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\rotateLoadingScript.cs",
               "RelativeDocumentMoniker": "Assets\\rotateLoadingScript.cs",
@@ -319,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "ExitScript.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\ExitScript.cs",
               "RelativeDocumentMoniker": "Assets\\ExitScript.cs",
@@ -331,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 39,
               "Title": "ShowCursorScript.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\ShowCursorScript.cs",
               "RelativeDocumentMoniker": "Assets\\ShowCursorScript.cs",
@@ -343,43 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EnemySpaceshipMovement.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpaceshipMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\EnemySpaceshipMovement.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpaceshipMovement.cs",
-              "RelativeToolTip": "Assets\\EnemySpaceshipMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T20:05:44.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SecondaryEnemySpaceshipCollisionsScript.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\SecondaryEnemySpaceshipCollisionsScript.cs",
-              "RelativeDocumentMoniker": "Assets\\SecondaryEnemySpaceshipCollisionsScript.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\SecondaryEnemySpaceshipCollisionsScript.cs",
-              "RelativeToolTip": "Assets\\SecondaryEnemySpaceshipCollisionsScript.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAkwGAAAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T11:16:43.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GoToMainGameScreen.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGameScreen.cs",
-              "RelativeDocumentMoniker": "Assets\\GoToMainGameScreen.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\GoToMainGameScreen.cs",
-              "RelativeToolTip": "Assets\\GoToMainGameScreen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T18:48:29.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 36,
               "Title": "ReturnToInitialScreen.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\ReturnToInitialScreen.cs",
               "RelativeDocumentMoniker": "Assets\\ReturnToInitialScreen.cs",
@@ -391,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 37,
               "Title": "ReturnToMainGameScreen.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\ReturnToMainGameScreen.cs",
               "RelativeDocumentMoniker": "Assets\\ReturnToMainGameScreen.cs",
@@ -403,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 38,
               "Title": "FadeShader.shader",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Shaders\\FadeShader.shader",
               "RelativeDocumentMoniker": "Assets\\Shaders\\FadeShader.shader",
@@ -415,19 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FadeControllerScript.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FadeControllerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\FadeControllerScript.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\FadeControllerScript.cs",
-              "RelativeToolTip": "Assets\\FadeControllerScript.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAkwCYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T17:41:41.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 40,
               "Title": "MessageSwitcherScript.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MessageSwitcherScript.cs",
               "RelativeDocumentMoniker": "Assets\\MessageSwitcherScript.cs",
@@ -439,43 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SpriteTransformScript.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\SpriteTransformScript.cs",
-              "RelativeDocumentMoniker": "Assets\\SpriteTransformScript.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\SpriteTransformScript.cs",
-              "RelativeToolTip": "Assets\\SpriteTransformScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:05:36.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\EnemySpawner.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\EnemySpawner.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAuwEkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T20:05:44.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "MainSpaceShipP1Movement.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP1\\MainSpaceShipP1Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Ships\\MainSpaceshipP1\\MainSpaceShipP1Movement.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\Ships\\MainSpaceshipP1\\MainSpaceShipP1Movement.cs",
-              "RelativeToolTip": "Assets\\Ships\\MainSpaceshipP1\\MainSpaceShipP1Movement.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAuwCkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T20:05:44.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "MainGameSceneSwitcher.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\MainGameSceneSwitcher.cs",
               "RelativeDocumentMoniker": "Assets\\MainGameSceneSwitcher.cs",
@@ -487,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "EnemySpaceshipLifeScript.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\EnemySpaceshipLifeScript.cs",
               "RelativeDocumentMoniker": "Assets\\EnemySpaceshipLifeScript.cs",
@@ -499,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "HideMouseScript.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\HideMouseScript.cs",
               "RelativeDocumentMoniker": "Assets\\HideMouseScript.cs",
@@ -511,19 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "activate.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\activate.cs",
-              "RelativeDocumentMoniker": "Assets\\activate.cs",
-              "ToolTip": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\activate.cs",
-              "RelativeToolTip": "Assets\\activate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAVAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEnSURBVFhHYxgFo2AUjHjACKXh4MLDC/9BdO\u002BBXjD/1ONTYPrPvz9g2kzWDEwvT1yOovftx7dgfeaTzMH8O7V3wPK4xGGACUoPGIC75tKjS2CXhi8JB/PNZSEuTjJLAtP8HPxg\u002Bvqr62A6wjQCxYdG/UYgiiBgZWYF07CQGDwhkLI0BeyT55\u002Beg/krY1eCaR4eHpQ4wwWGbBqAO\u002BD049Ng7KbuBsYgnxPre0rA4EkDmq2a4LjKtckF87Pss0iK\u002B6GfC8LmhYF98vffXzB/bcpakuJ/yOYCuGtO3j0JdmnE4ggw30PDA0xHGED4sLi79PwSmM6wyyAphHCBwRMCMLDn2h5wSEw5MgXMv/PmDpjmYuMC0/bK9mC6O7B7eITAKBgFo2CkAwYGANm2e7w/VqGPAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-14T20:05:44.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 45,
               "Title": "detachParent.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\detachParent.cs",
               "RelativeDocumentMoniker": "Assets\\detachParent.cs",
@@ -535,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 44,
               "Title": "fixPosition.cs",
               "DocumentMoniker": "C:\\Users\\leand\\Downloads\\Unity Projects 2024\\SpaceOne\\SpaceOne\\Assets\\fixPosition.cs",
               "RelativeDocumentMoniker": "Assets\\fixPosition.cs",

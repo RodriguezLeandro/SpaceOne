@@ -22,7 +22,8 @@ public class MainSpaceShipP1Collisions : MonoBehaviour
         /* Check if the collision involves the enemyLayer and the EnemySkillLayer*/
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy") || collision.gameObject.layer == LayerMask.NameToLayer("EnemySkill"))
         {
-            if (collision.gameObject.CompareTag("EnemySpaceship") || collision.gameObject.CompareTag("EnemySkill"))
+            if (collision.gameObject.CompareTag("EnemySpaceship") 
+                || collision.gameObject.CompareTag("EnemySkill"))
             {
                 // Access the GameObject that collided with the "PlayerLayer" collider
                 GameObject player = gameObject;

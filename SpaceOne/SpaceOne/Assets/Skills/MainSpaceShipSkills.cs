@@ -5,7 +5,8 @@ public class MainSpaceShipSkills : MonoBehaviour
 
     public GameObject fireballPrefab; // Assign the fireball prefab in the Inspector
     public GameObject laserPrefab; // Assign the laser prefab in the Inspector
-    public GameObject newLaserPrefab; // Assign the laser prefab in the Inspector
+    public GameObject newLaser01Prefab; // Assign the laser prefab in the Inspector
+    public GameObject newLaser02Prefab; // Assign the laser prefab in the Inspector
     public float laserDuration = 5f; // Assing the laser duration
     public float fireballSpeed = 5f; // Adjust the speed of the fireball
 
@@ -13,7 +14,8 @@ public class MainSpaceShipSkills : MonoBehaviour
     void Start()
     {
         laserPrefab.SetActive(false);
-        newLaserPrefab.SetActive(false);
+        newLaser01Prefab.SetActive(false);
+        newLaser02Prefab.SetActive(false);
     }
 
     // Update is called once per frame
@@ -38,8 +40,12 @@ public class MainSpaceShipSkills : MonoBehaviour
 
             if (secondEnemy == null)
             {
-                GameObject setActiveGameObject = newLaserPrefab.GetComponent<setActive>().gameObject;
-                setActiveGameObject.SetActive(true);
+                Debug.Log("Activating new laser");
+                GameObject setActiveGameObject01 = newLaser01Prefab.GetComponent<setActive>().gameObject;
+                setActiveGameObject01.SetActive(true);
+
+                GameObject setActiveGameObject02 = newLaser02Prefab.GetComponent<setActive>().gameObject;
+                setActiveGameObject02.SetActive(true);
             }
         }
     }

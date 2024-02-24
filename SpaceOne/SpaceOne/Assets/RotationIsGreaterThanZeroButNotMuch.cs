@@ -2,26 +2,35 @@ using UnityEngine;
 
 public class RotationIsGreaterThanZeroButNotMuch : MonoBehaviour
 {
-    public float minRotationAngle = 0.01f; // Minimum rotation angle allowed
+    public float maxRotationAngle = 10f; // Maximum rotation angle allowed
+
+    private Quaternion initialRotation;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Store the initial rotation of the object
+        initialRotation = transform.rotation;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Get the current rotation angles of the object
-        Vector3 currentRotation = transform.rotation.eulerAngles;
+        // Calculate the difference between the current rotation and the initial rotation
+        Quaternion deltaRotation = transform.rotation * Quaternion.Inverse(initialRotation);
 
-        // Clamp the rotation angles to ensure they remain slightly greater than zero
-        float clampedXRotation = Mathf.Max(currentRotation.x, minRotationAngle);
-        float clampedYRotation = Mathf.Max(currentRotation.y, minRotationAngle);
-        float clampedZRotation = Mathf.Max(currentRotation.z, minRotationAngle);
+        // Convert the delta rotation to Euler angles
+        Vector3 eulerDelta = deltaRotation.eulerAngles;
 
-        // Update the rotation of the object with the clamped values
-        transform.rotation = Quaternion.Euler(clampedXRotation, clampedYRotation, clampedZRotation);
+        // Limit the rotation angles within the specified range
+        eulerDelta.x = Mathf.Clamp(eulerDelta.x, -maxRotationAngle, maxRotationAngle);
+        eulerDelta.y = Mathf.Clamp(eulerDelta.y, -maxRotationAngle, maxRotationAngle);
+        eulerDelta.z = Mathf.Clamp(eulerDelta.z, -maxRotationAngle, maxRotationAngle);
+
+        // Convert the Euler angles back to a Quaternion rotation
+        Quaternion limitedRotation = Quaternion.Euler(eulerDelta);
+
+        // Apply the limited rotation to the object
+        transform.rotation = initialRotation * limitedRotation;
     }
 }

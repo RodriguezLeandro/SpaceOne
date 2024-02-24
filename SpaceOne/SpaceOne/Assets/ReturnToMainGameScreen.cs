@@ -24,7 +24,7 @@ public class ReturnToMainGameScreen : MonoBehaviour
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
                 // Switch to the specified scene
-                SceneManager.LoadScene("MainGameScene");
+                SceneManager.LoadScene("PlayerSelectScreen");
             }
         }
     }

@@ -10,6 +10,9 @@ TagManager:
   - EnemySkill
   - LightLaser
   - FinalBoss
+  - NewLightLaser
+  - FinalBossLaser01
+  - FinalBossLaser02
   layers:
   - Default
   - TransparentFX
@@ -23,8 +26,8 @@ TagManager:
   - Enemy
   - EnemySkill
   - PlayerSkill
-  - 
-  - 
+  - FinalBoss
+  - FinalBossSkill
   - 
   - 
   - 

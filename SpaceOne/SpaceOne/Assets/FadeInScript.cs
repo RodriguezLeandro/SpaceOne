@@ -12,8 +12,7 @@ public class FadeInScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //TODO: Set active in false to only see boss when the moment is key.
-        gameObject.SetActive(true);
+        gameObject.SetActive(false);
     }
 
     // Update is called once per frame

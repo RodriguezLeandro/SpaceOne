@@ -20,10 +20,14 @@ public class MainSpaceShipP1Collisions : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         /* Check if the collision involves the enemyLayer and the EnemySkillLayer*/
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy") || collision.gameObject.layer == LayerMask.NameToLayer("EnemySkill"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy") 
+            || collision.gameObject.layer == LayerMask.NameToLayer("EnemySkill")
+            || collision.gameObject.layer == LayerMask.NameToLayer("FinalBossSkill"))
         {
             if (collision.gameObject.CompareTag("EnemySpaceship") 
-                || collision.gameObject.CompareTag("EnemySkill"))
+                || collision.gameObject.CompareTag("EnemySkill") 
+                || collision.gameObject.CompareTag("FinalBossLaser01")
+                || collision.gameObject.CompareTag("FinalBossLaser02"))
             {
                 // Access the GameObject that collided with the "PlayerLayer" collider
                 GameObject player = gameObject;
@@ -48,8 +52,11 @@ public class MainSpaceShipP1Collisions : MonoBehaviour
                 // Reset rotation to identity (no rotation)
                 playerTransform.rotation = Quaternion.identity;
 
-                // Destroy enemy spaceship
-                Destroy(collision.gameObject);
+                // Destroy enemy spaceship only if not finalBossAttack
+                if (!(collision.gameObject.CompareTag("FinalBossLaser01") || collision.gameObject.CompareTag("FinalBossLaser02")))
+                {
+                    Destroy(collision.gameObject);
+                }
 
                 GameObject parentObject = transform.parent.gameObject;
 

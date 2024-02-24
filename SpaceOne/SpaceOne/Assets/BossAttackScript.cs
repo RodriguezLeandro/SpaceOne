@@ -17,6 +17,6 @@ public class BossAttackScript : MonoBehaviour
     // Method to execute the attack
     public virtual void ExecuteAttack()
     {
-        Debug.Log("Base attack executed.");
+
     }
 }

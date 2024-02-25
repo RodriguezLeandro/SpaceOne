@@ -29,7 +29,7 @@ public class EnemySpaceshipCollisions : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerSkill"))
         {
             // Check to not destroy laser in case of collision of enemy with laser rigidBody2d
-            if (!collision.gameObject.CompareTag("LightLaser")) 
+            if (!(collision.gameObject.CompareTag("LightLaser") || collision.gameObject.CompareTag("NewLightLaser")))
             {
                 Destroy(collision.gameObject);
             }

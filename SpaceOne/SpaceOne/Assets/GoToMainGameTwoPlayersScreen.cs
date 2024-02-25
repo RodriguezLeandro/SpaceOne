@@ -22,7 +22,19 @@ public class GoToMainGameTwoPlayersScreen : MonoBehaviour
         // Wait for 10 seconds
         yield return new WaitForSeconds(10f);
 
-        // Load the new scene
-        SceneManager.LoadScene("MainGameTwoPlayersScene");
+        // Load the scene asynchronously after the delay
+        StartCoroutine(LoadSceneAsync("MainGameTwoPlayersScene"));
+    }
+
+    IEnumerator LoadSceneAsync(string sceneName)
+    {
+        // Begin loading the scene asynchronously
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
+
+        // Wait until the load operation is done
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
 }

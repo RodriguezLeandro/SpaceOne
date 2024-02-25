@@ -44,11 +44,7 @@ public class chargingSkillScript : MonoBehaviour
             gameObject.GetComponent<SpriteRenderer>().material.color = color;
             chargeTimer = 0f;
             disableBoxColliders();
-            if (gameObject.GetComponent<setActive>() != null) 
-            {
-                GameObject setActive = gameObject.GetComponent<setActive>().gameObject;
-                setActive.SetActive(false);
-            }
+            gameObject.SetActive(false);
         }
     }
 

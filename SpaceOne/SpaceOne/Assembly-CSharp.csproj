@@ -70,6 +70,7 @@
     <Compile Include="Assets\FadeControllerScript.cs" />
     <Compile Include="Assets\RotationIsGreaterThanZeroButNotMuch.cs" />
     <Compile Include="Assets\BossAttackScript03.cs" />
+    <Compile Include="Assets\FireballBeetleCollisions.cs" />
     <Compile Include="Assets\FinalBossMovement.cs" />
     <Compile Include="Assets\fixPosition.cs" />
     <Compile Include="Assets\BeetleSpaceshipSkills.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Ships\MainSpaceshipP1\MainSpaceshipP1Rotation.cs" />
     <Compile Include="Assets\FinalBossDeathAnimation.cs" />
     <Compile Include="Assets\GoToMainGameScreen.cs" />
+    <Compile Include="Assets\BossAttackScript04.cs" />
     <Compile Include="Assets\BeetleCollisions.cs" />
     <Compile Include="Assets\SpriteTransformScript.cs" />
     <Compile Include="Assets\RotationAlwaysIs270.cs" />
@@ -103,6 +105,7 @@
     <Compile Include="Assets\BossAttackScript02.cs" />
     <Compile Include="Assets\mainSpaceshipAndBoundariesCollisions.cs" />
     <Compile Include="Assets\GoToMainGamePlayer2Screen.cs" />
+    <Compile Include="Assets\RotationAlwaysIs90.cs" />
     <Compile Include="Assets\LaserCollisionScript.cs" />
     <Compile Include="Assets\GoToMainGameTwoPlayersScreen.cs" />
     <Compile Include="Assets\UpdateLaserMovement.cs" />

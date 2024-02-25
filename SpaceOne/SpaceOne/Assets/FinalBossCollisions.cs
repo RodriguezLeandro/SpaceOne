@@ -80,7 +80,6 @@ public class FinalBossCollisions : MonoBehaviour
         {
             transformFinalBossLowLife();
         }
-        Debug.Log("FinalBossLives are" + finalBossLives);
 
         if (finalBossLives == 0f)
         { 

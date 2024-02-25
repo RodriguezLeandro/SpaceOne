@@ -22,12 +22,14 @@ public class MainSpaceShipP1Collisions : MonoBehaviour
         /* Check if the collision involves the enemyLayer and the EnemySkillLayer*/
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy") 
             || collision.gameObject.layer == LayerMask.NameToLayer("EnemySkill")
-            || collision.gameObject.layer == LayerMask.NameToLayer("FinalBossSkill"))
+            || collision.gameObject.layer == LayerMask.NameToLayer("FinalBossSkill")
+            || collision.gameObject.layer == LayerMask.NameToLayer("BeetleSkill"))
         {
             if (collision.gameObject.CompareTag("EnemySpaceship") 
                 || collision.gameObject.CompareTag("EnemySkill") 
                 || collision.gameObject.CompareTag("FinalBossLaser01")
-                || collision.gameObject.CompareTag("FinalBossLaser02"))
+                || collision.gameObject.CompareTag("FinalBossLaser02")
+                || collision.gameObject.CompareTag("BeetleSkill"))
             {
                 // Access the GameObject that collided with the "PlayerLayer" collider
                 GameObject player = gameObject;

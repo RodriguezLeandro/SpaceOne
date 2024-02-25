@@ -563,9 +563,16 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
+                "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGamePlayer1Scene.unity",
                 "Assets/Scenes/MainGamePlayer2Scene.unity",
-                "Assets/Scenes/MainGameTwoPlayersScene.unity"
+                "Assets/Scenes/MainGameTwoPlayersScene.unity",
+                "Assets/Scenes/MissionScene.unity",
+                "Assets/Scenes/PlayerSelectScreen.unity"
             ]
         },
         {
@@ -574,9 +581,16 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
+                "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGamePlayer1Scene.unity",
                 "Assets/Scenes/MainGamePlayer2Scene.unity",
-                "Assets/Scenes/MainGameTwoPlayersScene.unity"
+                "Assets/Scenes/MainGameTwoPlayersScene.unity",
+                "Assets/Scenes/MissionScene.unity",
+                "Assets/Scenes/PlayerSelectScreen.unity"
             ]
         },
         {
@@ -603,9 +617,16 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
+                "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGamePlayer1Scene.unity",
                 "Assets/Scenes/MainGamePlayer2Scene.unity",
-                "Assets/Scenes/MainGameTwoPlayersScene.unity"
+                "Assets/Scenes/MainGameTwoPlayersScene.unity",
+                "Assets/Scenes/MissionScene.unity",
+                "Assets/Scenes/PlayerSelectScreen.unity"
             ]
         },
         {
@@ -632,9 +653,16 @@
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Controls2Players.unity",
+                "Assets/Scenes/ControlsPlayer1.unity",
+                "Assets/Scenes/ControlsPlayer2.unity",
+                "Assets/Scenes/GameOverScene.unity",
+                "Assets/Scenes/InitialScreenScene.unity",
                 "Assets/Scenes/MainGamePlayer1Scene.unity",
                 "Assets/Scenes/MainGamePlayer2Scene.unity",
-                "Assets/Scenes/MainGameTwoPlayersScene.unity"
+                "Assets/Scenes/MainGameTwoPlayersScene.unity",
+                "Assets/Scenes/MissionScene.unity",
+                "Assets/Scenes/PlayerSelectScreen.unity"
             ]
         },
         {

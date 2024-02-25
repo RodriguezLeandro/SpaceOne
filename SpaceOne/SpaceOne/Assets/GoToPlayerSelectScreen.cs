@@ -3,10 +3,26 @@ using UnityEngine.SceneManagement;
 
 public class GoToPlayerSelectScreen : MonoBehaviour
 {
+
+    // Sound to be played when a collision occurs
+    public AudioClip collisionSound;
+
+    // AudioSource component for playing the collision sound
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Ensure an AudioSource component is attached to the GameObject
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            // Add an AudioSource component if one is not attached
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        // Assign the collision sound to the AudioSource
+        audioSource.clip = collisionSound;
     }
 
     // Update is called once per frame
@@ -23,9 +39,17 @@ public class GoToPlayerSelectScreen : MonoBehaviour
             // If the raycast hits the square
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
-                // Switch to the specified scene
-                SceneManager.LoadScene("PlayerSelectScreen");
+                // Play the collision sound
+                audioSource.Play();
+
+                Invoke("ChangeScene", 1.8f);
             }
         }
+    }
+
+    private void ChangeScene()
+    {
+        // Switch to the specified scene
+        SceneManager.LoadScene("PlayerSelectScreen");
     }
 }

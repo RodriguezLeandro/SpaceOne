@@ -64,6 +64,7 @@
     <Compile Include="Assets\GoToControlsPlayer2Screen.cs" />
     <Compile Include="Assets\BossAttackScript.cs" />
     <Compile Include="Assets\rotateLoadingScript.cs" />
+    <Compile Include="Assets\FinalBossLifeIndicatorScript.cs" />
     <Compile Include="Assets\Ships\MainSpaceshipP2\MainSpaceShipP2Script.cs" />
     <Compile Include="Assets\ReturnToMainGameScreen.cs" />
     <Compile Include="Assets\FadeControllerScript.cs" />
@@ -71,12 +72,15 @@
     <Compile Include="Assets\BossAttackScript03.cs" />
     <Compile Include="Assets\FinalBossMovement.cs" />
     <Compile Include="Assets\fixPosition.cs" />
+    <Compile Include="Assets\BeetleSpaceshipSkills.cs" />
     <Compile Include="Assets\Skills\MainSpaceShipSkills.cs" />
     <Compile Include="Assets\EnemySpawner.cs" />
     <Compile Include="Assets\chargingSkillScript.cs" />
     <Compile Include="Assets\ExitScript.cs" />
     <Compile Include="Assets\Ships\MainSpaceshipP1\MainSpaceshipP1Rotation.cs" />
+    <Compile Include="Assets\FinalBossDeathAnimation.cs" />
     <Compile Include="Assets\GoToMainGameScreen.cs" />
+    <Compile Include="Assets\BeetleCollisions.cs" />
     <Compile Include="Assets\SpriteTransformScript.cs" />
     <Compile Include="Assets\RotationAlwaysIs270.cs" />
     <Compile Include="Assets\FinalBossSkills.cs" />
@@ -85,6 +89,7 @@
     <Compile Include="Assets\MessageSwitcherScript.cs" />
     <Compile Include="Assets\BossAttackController.cs" />
     <Compile Include="Assets\Ships\MainSpaceshipP2\MainSpaceShipP2Movement.cs" />
+    <Compile Include="Assets\RayCastingTeledirigedScript.cs" />
     <Compile Include="Assets\TwinkleStarsScript.cs" />
     <Compile Include="Assets\EnemySpaceShipSkills.cs" />
     <Compile Include="Assets\GoToMainGamePlayer1Screen.cs" />
@@ -111,6 +116,7 @@
     <Compile Include="Assets\setActive.cs" />
     <Compile Include="Assets\detachParent.cs" />
     <Compile Include="Assets\EnemySpaceshipMovement.cs" />
+    <Compile Include="Assets\AimToPlayer1.cs" />
     <Compile Include="Assets\FadeInScript.cs" />
     <Compile Include="Assets\MainGameSceneSwitcher.cs" />
     <Compile Include="Assets\GoToControlsPlayer1Screen.cs" />

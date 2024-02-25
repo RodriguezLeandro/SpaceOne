@@ -48,6 +48,8 @@ public class MainSpaceShipSkills : MonoBehaviour
         // Instantiate the fireball prefab at the fire point's position and rotation
         GameObject fireball = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
 
+        fireball.SetActive(true);
+
         // Get the fireball's Rigidbody component
         Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
 

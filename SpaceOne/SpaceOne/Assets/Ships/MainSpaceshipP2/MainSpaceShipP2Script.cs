@@ -18,8 +18,7 @@ public class MainSpaceShipP2Script : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Keypad2) 
-            && !shieldPrefab.GetComponent<setActive>().gameObject.activeInHierarchy 
-            && !newShieldPrefab.GetComponent<setActive>().gameObject.activeInHierarchy)
+            && !shieldPrefab.GetComponent<setActive>().gameObject.activeInHierarchy)
         {
             ShootFireball();
         }
@@ -45,6 +44,8 @@ public class MainSpaceShipP2Script : MonoBehaviour
     {
         // Instantiate the fireball prefab at the fire point's position and rotation
         GameObject fireball = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
+
+        fireball.SetActive(true);
 
         // Get the fireball's Rigidbody component
         Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();

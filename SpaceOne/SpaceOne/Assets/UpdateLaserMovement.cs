@@ -16,7 +16,7 @@ public class UpdateLaserMovement : MonoBehaviour
     void Update()
     {
         // Set the velocity of the fireball to move upwards
-        rigidBody2D.velocity = transform.up * laserSpeed;
+        rigidBody2D.linearVelocity = transform.up * laserSpeed;
     }
 
     void OnEnable()

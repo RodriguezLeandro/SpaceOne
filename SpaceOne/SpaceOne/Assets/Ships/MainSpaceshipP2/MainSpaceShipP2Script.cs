@@ -54,7 +54,7 @@ public class MainSpaceShipP2Script : MonoBehaviour
         Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
 
         // Set the velocity of the fireball to move upwards
-        rb.velocity = transform.up * fireballSpeed;
+        rb.linearVelocity = transform.up * fireballSpeed;
 
         // Destroy the fireball when it goes out of the screen
         Destroy(fireball, 5f); // Adjust the time according to your needs
@@ -71,7 +71,7 @@ public class MainSpaceShipP2Script : MonoBehaviour
         Rigidbody2D rb = fenixAttack.GetComponent<Rigidbody2D>();
 
         // Set the velocity of the fireball to move upwards
-        rb.velocity = transform.up * fireballSpeed;
+        rb.linearVelocity = transform.up * fireballSpeed;
 
         // Destroy the fireball when it goes out of the screen
         Destroy(fenixAttack, 5f); // Adjust the time according to your needs

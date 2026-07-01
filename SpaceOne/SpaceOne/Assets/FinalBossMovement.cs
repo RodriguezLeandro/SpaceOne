@@ -6,11 +6,16 @@ public class FinalBossMovement : MonoBehaviour
     public float speed = 5f; // Speed of movement
     public float radius = 2f; // Radius of the circular movement
 
+    private float StartPositionX;
+    private float StartPositionY;
+
     private float angle = 0f; // Current angle in radians
 
     // Start is called before the first frame update
     void Start()
     {
+        StartPositionX = transform.position.x;
+        StartPositionY = transform.position.y;
     }
 
     void Update()
@@ -19,8 +24,8 @@ public class FinalBossMovement : MonoBehaviour
         angle += speed * Time.deltaTime;
 
         // Calculate the new position in a circular path
-        float x = Mathf.Cos(angle) * radius;
-        float y = Mathf.Sin(angle) * radius + VerticalOffset;
+        float x = StartPositionX + Mathf.Cos(angle) * radius;
+        float y = StartPositionY + Mathf.Sin(angle) * radius + VerticalOffset;
 
         // Set the position of the boss ship
         transform.position = new Vector3(x, y, 0f);

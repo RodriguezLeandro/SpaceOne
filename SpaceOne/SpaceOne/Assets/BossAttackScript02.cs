@@ -27,7 +27,7 @@ public class BossAttackScript02 : BossAttackScript
         Rigidbody2D rb = attack02.GetComponent<Rigidbody2D>();
 
         // Set the velocity of the fireball to move upwards
-        rb.velocity = transform.up * attack02Speed;
+        rb.linearVelocity = transform.up * attack02Speed;
 
         // Destroy the fireball when it goes out of the screen
         Destroy(attack02, 5f); // Adjust the time according to your needs

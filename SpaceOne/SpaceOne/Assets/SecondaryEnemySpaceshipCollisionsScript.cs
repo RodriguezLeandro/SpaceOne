@@ -18,7 +18,7 @@ public class SecondaryEnemySpaceshipCollisionsScript : MonoBehaviour
     {
         if (enemiesDestroyed == endEnemiesDestroyedQuantity)
         {
-            finalBoss.SetActive(true); 
+            finalBoss.SetActive(true);
             Destroy(gameObject);
 
             updateMainSpaceshipSprites();
@@ -56,9 +56,9 @@ public class SecondaryEnemySpaceshipCollisionsScript : MonoBehaviour
             Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
 
             // Calculate the direction of bouncing (reverse the horizontal velocity)
-            float newVelocityX = -rb.velocity.x;
+            float newVelocityX = -rb.linearVelocity.x;
 
-            rb.AddForce(new Vector3(newVelocityX, rb.velocity.y, 0f) * 10f);
+            rb.AddForce(new Vector3(newVelocityX, rb.linearVelocity.y, 0f) * 10f);
         }
     }
 

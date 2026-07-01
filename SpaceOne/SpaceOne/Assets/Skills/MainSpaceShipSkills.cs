@@ -54,7 +54,7 @@ public class MainSpaceShipSkills : MonoBehaviour
         Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
 
         // Set the velocity of the fireball to move upwards
-        rb.velocity = transform.up * fireballSpeed;
+        rb.linearVelocity = transform.up * fireballSpeed;
 
         // Destroy the fireball when it goes out of the screen
         Destroy(fireball, 5f); // Adjust the time according to your needs
@@ -69,7 +69,7 @@ public class MainSpaceShipSkills : MonoBehaviour
         Rigidbody2D rb = newLaser01.GetComponent<Rigidbody2D>();
 
         // Set the velocity of the fireball to move upwards
-        rb.velocity = transform.up * newLaserSpeed;
+        rb.linearVelocity = transform.up * newLaserSpeed;
 
         // Destroy the fireball when it goes out of the screen
         Destroy(newLaser01, 5f); // Adjust the time according to your needs
@@ -81,7 +81,7 @@ public class MainSpaceShipSkills : MonoBehaviour
         Rigidbody2D rb2 = newLaser02.GetComponent<Rigidbody2D>();
 
         // Set the velocity of the fireball to move upwards
-        rb2.velocity = transform.up * newLaserSpeed;
+        rb2.linearVelocity = transform.up * newLaserSpeed;
 
         // Destroy the fireball when it goes out of the screen
         Destroy(newLaser02, 5f); // Adjust the time according to your needs
